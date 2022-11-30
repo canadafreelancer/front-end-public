@@ -1,0 +1,89 @@
+.categories__container {
+  display: flex;
+  padding: 2rem 5.5rem;
+}
+.categories__main {
+  flex: 1;
+  overflow: auto;
+}
+.categories__main > ul {
+  list-style-type: none;
+}
+.category__main--Item {
+  display: flex;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.category__portfolioImg {
+  padding: 1.5rem;
+}
+.category__coverImg {
+  border-radius: 20px;
+}
+.cateogry__detailsContainer {
+  padding: 1.5rem;
+}
+.category__seller {
+  display: flex;
+  flex-direction: row;
+}
+.category__seller--col {
+  width: 50%;
+}
+.category__seller--detlsCont {
+  display: flex;
+  gap: 1rem;
+}
+.category_seller--caption {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.category__profileContainer {
+  display: flex;
+}
+.category__profileImg {
+  clip-path: circle();
+}
+.category_skillsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.category__btn {
+  border: none;
+  outline: none;
+  background-color: #c9184a;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: #fff;
+}
+.category__btn:hover,
+.category__btn:active {
+  background-color: #e83151;
+  cursor: pointer;
+}
+.category_skillsContainer > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+.category_skill {
+  background-color: #ffcccc;
+  padding: 0.3rem;
+  border-radius: 10px;
+}
+.category__seller--price {
+  float: right;
+  background-color: #ffcccc;
+  padding: 0.5rem;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.category__seller--title {
+  color: #c9184a;
+}
+.categories__aside {
+  width: 30%;
+}

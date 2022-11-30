@@ -1,0 +1,113 @@
+.jobListing_container {
+  display: flex;
+  padding: 2rem 5.5rem;
+  margin-top: 4rem;
+}
+.jobListing_container__sidebar {
+  width: 30%;
+}
+.jobListing_container__main {
+  flex: 1;
+  overflow: auto;
+}
+
+.jobRequests {
+  list-style-type: none;
+}
+.jobRequests > li {
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  padding: 2rem 1.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.jobRequests > li:hover,
+.jobRequests > li:active {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.jobRequest_owner {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+.jobRequest_owner > p {
+  background-color: antiquewhite;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: 10px;
+}
+.jobRequest_duration {
+  display: flex;
+  justify-content: space-between;
+}
+.jobRequest_duration > p:nth-of-type(2) {
+  font-weight: 700;
+  color: #e83151;
+}
+.jobRequest_title {
+  padding-bottom: 1rem;
+}
+.jobRequest_title:hover,
+.jobRequest_title:active {
+  color: #e83151;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.jobRequest_icon {
+  margin-right: 0.5rem;
+  color: #e83151;
+}
+.jobRequest_desc {
+  margin-bottom: 0.5rem;
+}
+.jobRequest_hourly {
+  font-weight: 100;
+  padding-left: 1rem;
+  color: black;
+}
+.jobRequest_days {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.8rem;
+  color: #e83151;
+  margin-right: 0.5rem;
+}
+.jobRequest_btn {
+  border: none;
+  outline: none;
+  background: #e83151;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+.jobRequest_btn:hover,
+.jobRequest_btn:active {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #ffb8b8;
+  color: #040f16;
+  cursor: pointer;
+}
+/* Sidebar */
+.sidebar {
+  background-color: #fff;
+  border-radius: 20px;
+  margin-right: 4rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Header Image */
+.header-image__container {
+  position: relative;
+}
+.header_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2.5rem;
+}

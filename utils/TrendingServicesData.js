@@ -1,0 +1,88 @@
+import { AiOutlineCheckCircle } from "react-icons/ai";
+import { FcLikePlaceholder } from "react-icons/fc";
+
+const topSellers = [
+  {
+    id: 1,
+    name: `Farouk Tagoe`,
+    desc: `We’ll Create Graphics for 3d Unity games in 24 hours`,
+    price: 30,
+    profilePic: `https://source.unsplash.com/7ycT0ZKRufE/200x300`,
+    coverImg: `https://source.unsplash.com/ybxugA_CWoM/200x300`,
+    verified: <AiOutlineCheckCircle />,
+    save: <FcLikePlaceholder />,
+  },
+  {
+    id: 2,
+    name: `James Taylor`,
+    desc: `I will design cover pages for your technical writing  `,
+    price: 40,
+    profilePic: `https://source.unsplash.com/VGYcVZguFzs/200x300`,
+    coverImg: `https://source.unsplash.com/IyaNci0CyRk/200x300`,
+    verified: <AiOutlineCheckCircle />,
+    save: <FcLikePlaceholder />,
+  },
+  {
+    id: 3,
+    name: `Galy Smith`,
+    desc: `I will develop custom wordpress plugin for your site`,
+    price: 25,
+    profilePic: `https://source.unsplash.com/uJ8LNVCBjFQ/200x300`,
+    coverImg: `https://source.unsplash.com/LXI5kqCdEcE/200x300`,
+    verified: <AiOutlineCheckCircle />,
+    save: <FcLikePlaceholder />,
+  },
+
+  {
+    id: 4,
+    name: `Stephen Sam`,
+    desc: `I will transcribe your conferences into notes `,
+    price: 10,
+    profilePic: `https://source.unsplash.com/zrZUCPgKMHc/200x300`,
+    coverImg: `https://source.unsplash.com/ZSPBhokqDMc/200x300`,
+    verified: <AiOutlineCheckCircle />,
+    save: <FcLikePlaceholder />,
+  },
+  {
+    id: 5,
+    name: `Eunice Thompson`,
+    desc: `I will create beautiful logos for your business`,
+    price: 23,
+    profilePic: `https://source.unsplash.com/nEWGCi7gB8U/200x300`,
+    coverImg: `https://source.unsplash.com/LPWl2pEVGKc/200x300`,
+    verified: <AiOutlineCheckCircle />,
+    save: <FcLikePlaceholder />,
+  },
+  {
+    id: 6,
+    name: `Andrina Anshso`,
+    desc: `I will create user manual instruction guide`,
+    price: 90,
+    profilePic: `https://source.unsplash.com/_cvwXhGqG-o/200x300`,
+    coverImg: `https://source.unsplash.com/q10VITrVYUM/200x300`,
+    verified: <AiOutlineCheckCircle />,
+    save: <FcLikePlaceholder />,
+  },
+  {
+    id: 7,
+    name: `Kenneth Brown`,
+    desc: `I will do a high quality voice over for your advertisement`,
+    price: 39,
+    profilePic: `https://source.unsplash.com/W0i1N6FdCWA/200x300`,
+    coverImg: `https://source.unsplash.com/6BWFAPPWn-8/200x300`,
+    verified: <AiOutlineCheckCircle />,
+    save: <FcLikePlaceholder />,
+  },
+  {
+    id: 8,
+    name: `Ruth Barister`,
+    desc: `I will mix and master your music at my studio`,
+    price: 83,
+    profilePic: `https://source.unsplash.com/AMIghdyjDQo/200x300`,
+    coverImg: `https://source.unsplash.com/dX76Mts-LVM/200x300`,
+    verified: <AiOutlineCheckCircle />,
+    save: <FcLikePlaceholder />,
+  },
+];
+
+export default topSellers;

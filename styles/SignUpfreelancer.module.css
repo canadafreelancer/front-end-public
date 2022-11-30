@@ -1,0 +1,200 @@
+.fieldset_container{
+    height: 80vh;
+    width:610px;
+    position: relative;
+    left: 480px;
+    top:10px;
+    border-radius: 14px;
+    background-color:#fff;
+    border:1px solid rgb(202, 193, 193);
+}
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.signup_container h1{
+    position: relative;
+    font-size: 38px;
+    font-weight:bold;
+    color: #e83151;
+    text-align: center;
+    top:30px;
+
+}
+.google_button{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left:150px;
+    width: 50%;
+    height: 4vh;
+    border-radius: 20px;
+    background-color:#333;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    color:#fff;
+    cursor:pointer;
+    font-size: 12px;
+
+}
+.apple_button{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left:150px;
+    width: 50%;
+    height: 4vh;
+    border-radius: 20px;
+    background-color:#fff;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    color:rgb(14, 13, 13);
+    border: 1px solid #333;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+.form_container h1{
+    font-size: 12px;
+    position: relative;
+    top: 74px;
+    color: #333;
+}
+.firstname_input{
+    width: 35%;
+    height: 5vh;
+    border-radius: 4px;
+    text-align: left ;
+    border: 2px solid rgb(189, 186, 186);
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    position: relative;
+    top:90px;
+    left:80px;
+    font-weight: bold;
+    box-shadow: 0px 2px 2px red;
+}
+.lastname_input{
+    width: 35%;
+    height: 5vh;
+    border-radius: 4px;
+    text-align: left ;
+    border: 2px solid rgb(189, 186, 186);
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    position: relative;
+    top:90px;
+    left:98px;
+    box-shadow: 0px 2px 2px red;
+    font-weight: bold;
+}
+.email_input{
+    width: 73%;
+    height: 5vh;
+    border-radius: 4px;
+    text-align: left ;
+    border: 2px solid rgb(189, 186, 186);
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    position:relative;
+    top:103px;
+    left:79px;
+    font-weight: bold;
+    box-shadow: 0px 2px 2px rgb(189, 186, 186);
+
+}
+.password_input{
+    width: 73%;
+    height: 5vh;
+    border-radius: 4px;
+    text-align: left ;
+    border: 2px solid rgb(189, 186, 186);
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    position:relative;
+    top:116px;
+    left:79px;
+    box-shadow: 0px 2px 2px red;
+    font-weight: bold;
+}
+.check1{
+    position: relative;
+    top:86px;
+    left: 80px;
+    accent-color:#e83151;
+    border: 0;
+    width: 16px;
+    height: 10em;
+    
+}
+.check-2{
+    position: relative;
+    bottom: 35px;
+    left: 80px;
+    accent-color:#e83151;
+    border: 0;
+    width: 16px;
+    height: 10em;
+    
+}
+.fieldset_container p{
+    position: relative;
+    top: 10px;
+    font-size: 11px;
+    left: 100px;
+    font-weight: 600;
+}
+.fieldset_container span{
+    position: relative;
+    bottom: 113px;
+    font-size: 11px;
+    left: 99px;
+    font-weight: 600;
+    margin-right:90px;
+    display: block;
+}
+.signup_button{
+    display: block;
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+    left:150px;
+    width: 50%;
+    height: 4vh;
+    border-radius: 20px;
+    background-color:#333;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    cursor:pointer;
+    font-size: 12px;
+
+}
+.footer{
+    background-color: #e83151;
+    height:22vh;
+    margin-top: 50px;
+    text-align: center;
+    padding: 25px 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer p{
+    position: relative;
+    top:30px;
+     margin-left: 60px;
+}

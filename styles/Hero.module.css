@@ -1,0 +1,126 @@
+.hero_container {
+  display: flex;
+}
+.hero_col {
+  width: 50%;
+}
+.hero_content {
+  padding-top: 2rem;
+  margin-left: 13%;
+  margin-top: 2rem;
+}
+
+.hero_content > h1 {
+  font-size: 3.5rem;
+  font-family: "Outfit";
+  color: #e83151;
+  font-weight: 700;
+}
+.hero_content > h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.hero_content > p {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+.hero_btn {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.hero_btnStart {
+  background-color: #e83151;
+  color: white;
+  font-size: 17px;
+  border-radius: 35px;
+  padding: 10px 30px 15px;
+  position: relative;
+  font-weight: 200;
+  transition: 0.5s;
+}
+.hero_btnLearn {
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  border-radius: 35px;
+  padding: 10px 30px 15px;
+  position: relative;
+  font-weight: 200;
+  border: 2px solid black;
+  transition: 0.5s;
+}
+.hero_btnStart:hover,
+.hero_btnStart:active,
+.hero_btnLearn:hover,
+.hero_btnLearn:active {
+  transform: translateY(10px);
+}
+.hero_img {
+  position: relative;
+  margin-top: 2.5rem;
+}
+.hero__buildingImg {
+  position: absolute;
+  opacity: 0.2;
+  /* top: 60%; */
+  bottom: -16%;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .hero_container {
+    flex-wrap: wrap;
+  }
+  .hero_col {
+    width: 100%;
+  }
+  .hero_content {
+    margin-right: 5%;
+  }
+  .hero_content > h1 {
+    font-size: 1.6rem;
+  }
+  .hero_content > p {
+    font-size: 1.2rem;
+  }
+
+  .hero_btnStart,
+  .hero_btnLearn {
+    padding: 0.8rem 1rem;
+  }
+
+  .hero_img {
+    margin-top: 1rem;
+    width: 100vw;
+  }
+  .hero__buildingImg {
+    position: absolute;
+    bottom: -34%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .hero_container {
+    flex-wrap: wrap;
+  }
+  .hero_col {
+    width: 100%;
+  }
+  .hero_content {
+    margin-left: 5%;
+    margin-top: 2rem;
+    margin-right: 5%;
+  }
+
+  .hero_content > h1 {
+    font-size: 2.5rem;
+  }
+  .hero_content > p {
+    font-size: 1.2rem;
+  }
+  .hero__buildingImg {
+    position: absolute;
+    bottom: -20%;
+  }
+}

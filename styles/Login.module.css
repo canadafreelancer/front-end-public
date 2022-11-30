@@ -1,0 +1,154 @@
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.fieldset_container{
+    height: 75vh;
+    width:480px;
+    position: relative;
+    left: 559px;
+   top: 29px;
+    border-radius: 15px;
+    background-color: #fff;
+    border:1px solid rgb(202, 193, 193);
+}
+.login_container h1{
+    position: relative;
+    top:30px;
+    font-size: 25px;
+    font-weight:bold;
+    color: #333; 
+    text-align: center;
+
+}
+.form_container{
+    font-weight: 500;
+    position:relative;
+    text-align: center;
+    top:58px;
+    
+}
+.email_input{
+    width: 50%;
+    height: 5vh;
+    border-radius: 4px;
+    text-align: left ;
+    border: 2px solid rgb(189, 186, 186);
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 0px 2px 2px red;
+}
+.login_button{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 24px;
+    left:120px;
+    width: 50%;
+    height: 4vh;
+    border-radius: 20px;
+    background-color:#e83151 ;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    color:#fff;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+.form_container h1{
+    font-size: 10px;
+    position: relative;
+    top: 48px;
+    color: rgb(202, 193, 193);
+}
+.google_button{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    left:120px;
+    width: 50%;
+    height: 4vh;
+    border-radius: 20px;
+    background-color:#333;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    color:#fff;
+    cursor:pointer;
+    font-size: 12px;
+
+}
+.apple_button{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 110px;
+    left:120px;
+    width: 50%;
+    height: 4vh;
+    border-radius: 20px;
+    background-color:#fff;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    color:rgb(14, 13, 13);
+    border: 1px solid #333;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+.signup_hr_left{
+    width: 15%;
+    position: relative;
+    top: 159px;
+    left: 98px;
+    border:1px solid rgb(202, 193, 193);
+}
+.signup_hr_right{
+    width: 15%;
+    position: relative;
+    top: 143px;
+    left: 307px;
+    border:1px solid rgb(202, 193, 193);    
+}
+.form_container h2{
+    font-size: 12px;
+    position: relative;
+    top: 150px;
+    color: rgb(202, 193, 193);
+    font-weight: bold;
+}
+.signup_button{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    left:170px;
+    width: 30%;
+    height: 4vh;
+    border-radius: 20px;
+    background-color:#fff;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    color:rgb(14, 13, 13);
+    border: 1px solid #333;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+.signup_button:hover{
+    background-color: #333;
+    color:#fff;
+}
+
+
+

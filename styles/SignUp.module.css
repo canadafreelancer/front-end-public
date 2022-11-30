@@ -1,0 +1,107 @@
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.fieldset_container{
+    height: 70vh;
+    width:670px;
+    position: relative;
+    left: 430px;
+    top:40px;
+    border-radius: 20px;
+    background-color: #fff;
+    border:1px solid rgb(202, 193, 193);
+}
+.signup_container h1{
+    position: relative;
+    left:145px;
+    top:30px;
+    font-size: 35px;
+    font-weight:200;
+    color: #e83151 ;
+
+}
+.form_container{
+    color: #333;
+    font-weight: 500;
+   
+
+}
+.label_container{
+    display:flex;
+    width:240px;
+    height: 24vh;
+    padding: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    border:1px solid rgb(202, 193, 193);
+    color:rgb(14, 14, 14);
+
+    
+
+}
+.signup_container .form_container{
+    display:flex;
+    gap:40px;
+    position: relative;
+    left: 93px;
+    top:85px;
+
+
+}
+.label_content span{
+    font-size: 26px;
+    font-weight: bold;
+
+}
+.label_container .radio{
+    position: relative;
+    bottom: 50px;    
+    accent-color:#e83151;
+    border: 0;
+    height: 50em;
+    width: 50px;
+    
+}
+.label_container:hover{
+    border:3px solid #e83151 ;
+    background-color: rgb(245, 240, 236);
+    transition: 0.1s;
+    color:rgb(129, 8, 8);
+}
+.label_button{
+      position: relative;
+      top:250px;
+      right:370px;
+      width:150px;
+      height: 5vh;
+      background-color:#e83151 ;
+      border: none;
+      border-radius: 30px;
+      color: #fff;
+     
+  }
+  .label_button:hover{
+    background-color:#e83151;
+    color: #fff;
+    transition: 0.5s;
+   
+   
+}
+  .login{
+     position: relative;
+     top: 190px;
+     left:250px;
+  }
+
+

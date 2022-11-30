@@ -1,0 +1,138 @@
+.topSellers_wrapper {
+  background-color: #ffcccc;
+}
+.topSellers_heading {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: grid;
+  place-items: center;
+}
+.topSellers_heading > h2 {
+  font-size: 2.5rem;
+}
+.topSellers_heading > p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.topSellers_lists {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style-type: none;
+  padding-bottom: 4rem;
+}
+.topSellers_lists > li {
+  background-color: #fff;
+  width: 20%;
+  border-radius: 10px;
+}
+.topSeller_item {
+  padding: 1rem;
+}
+.topSeller_img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.topSeller_profileSec {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  position: relative;
+}
+.topSeller_name_wrapper {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+/* .topSeller_name_wrapper:hover,
+.topSeller_name_wrapper:active {
+  color: #e83151;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+} */
+.topSeller_profilePic {
+  border-radius: 50%;
+}
+.topSeller_hr {
+  margin-top: 1rem;
+}
+.topSeller_price {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+  position: relative;
+}
+.topSeller_price > p:nth-child(1) > span {
+  color: #e83151;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-left: 0.7rem;
+}
+.topSeller_price > p:nth-child(2) {
+  font-size: 2rem;
+  position: absolute;
+  top: -30%;
+  right: 5%;
+}
+.topSeller_desc {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.trendingModalList {
+  cursor: pointer;
+}
+#trendingModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .topSellers_lists > li {
+    width: 80vw;
+  }
+  .topSellers_heading > h2 {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .topSellers_lists > li {
+    width: 40%;
+  }
+  .topSeller_price > p:nth-child(2) {
+    top: -10%;
+    font-size: 1.5rem;
+  }
+}

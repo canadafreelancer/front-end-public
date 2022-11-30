@@ -1,0 +1,81 @@
+.leads-wrapper {
+  display: flex;
+}
+.leads-wrapper-col {
+  padding: 3rem 3rem 5% 7%;
+  width: 50%;
+}
+.leads-wrapper-col > h2 {
+  font-size: 2.5rem;
+  padding-right: 5rem;
+  border-left: 0.5rem solid #ffccccff;
+  border-radius: 10px;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+.leads_content {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.leads_btn-freelancer,
+.leads_btn-employer {
+  margin-top: 1.5rem;
+  border: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  text-transform: capitalize;
+}
+
+.leads_btn-freelancer {
+  background: #f1faee;
+  color: #c9184a;
+}
+.leads_btn-freelancer:hover,
+.leads_btn-freelancer:active,
+.leads_btn-employer:hover,
+.leads_btn-employer:active {
+  background: #ffccccff;
+  transition: all 0.5s ease-in-out;
+  font-weight: 700;
+  cursor: pointer;
+}
+.leads_btn-employer:hover,
+.leads_btn-employer:active {
+  color: #c9184a;
+}
+.leads_btn-employer {
+  background: #c9184a;
+  color: #f1faee;
+}
+
+.leads-icon {
+  margin-left: 1rem;
+}
+.leads-col__employer {
+  background: #f1faee;
+}
+.leads-col__freelancer {
+  background: #c9184a;
+  color: #fff;
+}
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .leads-wrapper {
+    flex-direction: column;
+  }
+  .leads-wrapper-col {
+    width: 100%;
+  }
+  .leads-wrapper-col > h2 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .leads-wrapper {
+    flex-direction: column;
+  }
+  .leads-wrapper-col {
+    width: 100%;
+  }
+}

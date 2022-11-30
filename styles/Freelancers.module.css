@@ -1,0 +1,155 @@
+.freelance_container {
+  margin: 5%;
+}
+.innerCarousel {
+  display: flex;
+}
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+.freelance_heading {
+  display: grid;
+  place-items: center;
+}
+.freelance_heading > h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.freelance_heading > p {
+  font-size: 1.2rem;
+}
+.freelance_title > h2 {
+  font-family: "Raleway";
+  font-weight: 100;
+  color: #040f16;
+}
+.freelance_title > p {
+  font-weight: 600;
+  color: #a20021;
+}
+.freelance_details {
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+}
+.freelance_projects {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.freelance_projects > p {
+  font-weight: bold;
+}
+.freelance_projects > p > span {
+  color: #e83151;
+  font-weight: 400;
+}
+.freelance_item {
+  background-color: #fff;
+  border-radius: 20px;
+  border-bottom: 5px solid #ffcccc;
+  margin: 2rem;
+  min-width: 280px;
+  color: #040f16;
+  min-height: 20rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.freelance_item > ul {
+  list-style-type: none;
+}
+
+.freelance_imgWrapper {
+  display: grid;
+  place-items: center;
+  margin-top: 1.5rem;
+}
+.freelance_img {
+  border-radius: 10px;
+}
+
+.freelance_title {
+  margin-top: 1rem;
+  text-align: center;
+}
+.freelance_title > h2 {
+  font-weight: 100;
+}
+.freelance_skills_wrapper {
+  display: grid;
+  place-items: center;
+}
+.freelance_skills {
+  display: flex;
+  list-style-type: none;
+}
+.freelance_skills > li {
+  margin: 0.5rem;
+  border: 1px solid #e83151;
+  background: none;
+  color: #a20021;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+}
+.freelance_btn {
+  display: block;
+  margin: 1rem auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background: #e83151;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.freelance_btn:hover,
+.freelance_btn:active {
+  background: #a20021;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  transition: all 0.5s ease-in-out;
+}
+@media only screen and (max-width: 600px) {
+  .freelance_item {
+    min-width: 200px;
+    margin: 0.5rem;
+  }
+  .freelance_imgWrapper {
+    padding: 1rem;
+  }
+  .freelance_title > h2 {
+    font-size: 1rem;
+  }
+  .freelance_heading > p {
+    margin-bottom: 1rem;
+  }
+  .freelance_projects {
+    padding: 1rem;
+  }
+
+  .freelance_skills {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .freelance_item {
+    min-width: 200px;
+    margin: 0.5rem;
+  }
+  .freelance_imgWrapper {
+    padding: 1rem;
+  }
+  .freelance_title > h2 {
+    font-size: 1rem;
+  }
+  .freelance_heading > p {
+    margin-bottom: 1rem;
+  }
+  .freelance_projects {
+    padding: 1rem;
+  }
+  .freelance_skills {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,56 @@
+.appDownload_row {
+  display: flex;
+  background: #fff;
+}
+.appDownload_col {
+  width: 50%;
+}
+.appDownload_caption {
+  margin-top: 3rem;
+  margin-left: 15%;
+}
+.appDownload_caption > h3 {
+  font-size: 2.5rem;
+  padding-right: 4rem;
+}
+.appDownload_caption > p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.appStore_wrapper {
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.appStore_wrapper > h4 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.appStore_logo {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .appDownload_row {
+    flex-wrap: wrap;
+  }
+  .appDownload_col {
+    width: 100%;
+  }
+  .appDownload_caption {
+    margin-left: 5%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .appDownload_row {
+    flex-wrap: wrap;
+  }
+  .appDownload_col {
+    width: 100%;
+  }
+  .appDownload_caption {
+    margin-left: 5%;
+  }
+}

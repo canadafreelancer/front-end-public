@@ -1,0 +1,68 @@
+.contact_layout{
+  display: flex;
+  background-color: #e83151;
+  color: white;
+}
+.contact_article_layout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.5rem;
+  text-align: center;
+  padding: 4% 3%;
+  width: 50%;
+}
+.contact_article_form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  text-align: center;
+  padding: 4% 3%;
+  width: 50%;
+}
+.contact_article_form > input,
+.contact_article_form > textarea{
+  width: 90%;
+  padding: 2.5% 2%;
+  border: 3px solid #f72044;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  resize: none;
+}
+.contact_article_form > button{
+  font-family: "Poppins", sans-serif;
+  width: 25%;
+  padding: 2%;
+  background-color: #ffcccc;
+  color: #f72044;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: .4s;
+}
+.contact_article_form > button:hover{
+  background-color: #f72044;
+  color: #ffcccc;
+}
+.contact_title{
+  font-size: 2.8rem;
+}
+.contact_p{
+  width: 60%;
+  font-size: 0.9rem;
+}
+.contact_ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: .8rem;
+}
+.contact_a{
+  color: white;
+}
+.contact_a:hover{
+  text-decoration: underline;
+}
