@@ -1,6 +1,8 @@
 # front-end-public
 We are moving the Canada Freelancer front-end to the public so we can complete a project together! :)
 
+<img width="1680" alt="CF" src="https://user-images.githubusercontent.com/34953799/204886607-d56cb385-4716-44c0-b2e9-f93535b4c49e.png">
+
 This is a Next.js project bootstrapped with create-next-app.
 
 Getting Started
