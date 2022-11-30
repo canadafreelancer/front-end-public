@@ -1,0 +1,4 @@
+node_modules
+nextapp/package-lock.json
+.next/
+.next/cache/
