@@ -1,7 +1,9 @@
 import React from 'react'
 import Info from "../components/How it works/Info";
 import Head from "next/head";
+import styles from "../styles/Info.module.css";
 import NavBar from '../Components/Nav/NavBar';
+
 
 
 function HowItWorksPage() {
@@ -19,10 +21,12 @@ function HowItWorksPage() {
         </header>
         <main>
         </main>
-        <footer>
+      <footer>
+     
         </footer>
          
-
+     
+           
 
     </div>
   )

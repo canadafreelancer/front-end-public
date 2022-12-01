@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "../../styles/Info.module.css";
 import Image from "next/image";
+import Footer from "../../components/Footer/Footer";
 import client from "../../public/images/client.jpg";
 import picture from "../../public/images/HeroImg.png";
+import customer from "../../public/images/free5.png";
 import icon from "../../public/images/flowchart.png";
 import icon2 from "../../public/images/credit-card.png";
 import icon3 from "../../public/images/clipboard.png";
@@ -28,7 +30,7 @@ const Info = () => {
           </p>
         ))}
       </div>
-      </div> 
+      </div>
       <div className={styles["content_container"]}>
         <p>{myMenus === "Employers" && <h1>The possibilites are endless</h1>}</p>
         <p>{myMenus === "Employers" && <p className={styles["first_paragraph"]}> We have expert freelancers who work in every
@@ -164,7 +166,10 @@ const Info = () => {
           </div>        
             </div> 
             <div className={styles["sec_2"]}>
-           
+           <div className={styles["image_field"]} >
+           {myMenus === "Freelancers" && (<MenuImage7 src={customer} />
+          )}     
+            </div>
           </div> 
           </div>
           </div>
@@ -173,9 +178,11 @@ const Info = () => {
           {myMenus === "Employers" && (<MenuImage4 src={picture} />
           )}
         </div>
+          </div>
         </div>
-        </div>
-
+        <div className={styles["footer"]} >
+        <Footer />
+      </div>
       </div>
     </div>
 
@@ -243,6 +250,17 @@ const MenuImage6 = ({ src }) => {
       alt=""
       width={50}
       height={50}
+      layout="fixed"
+    />
+  );
+}
+const MenuImage7 = ({ src }) => {
+  return (
+    <Image
+      src={src}
+      alt=""
+      width={510}
+      height={500}
       layout="fixed"
     />
   );

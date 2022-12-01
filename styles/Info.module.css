@@ -325,3 +325,37 @@
     font-weight: lighter;
     white-space: nowrap;
 }
+.image_field{
+    position: relative;
+    left:120%;
+   
+}
+.footer{
+    position: relative;
+    top:7rem;
+}
+.initial_content p{
+      font-size: 50px;
+      text-align: center;
+      position: relative;
+      top:1.4rem;
+      font-weight: 600;
+}
+.button_cta{
+    position: relative;
+    
+    width: 170px;
+    height: 7vh;
+    font-size: 20px;
+    left: 42.3rem;
+    background-color: black;
+    color: #fff;
+    font-weight: 300; 
+    top:8rem;
+}
+.button_cta:hover{
+   
+    background-color:#c9184a;
+    color: black;
+    
+}    
