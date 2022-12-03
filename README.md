@@ -1,5 +1,14 @@
 # front-end-public
-We are moving the Canada Freelancer front-end to the public so we can complete a project together! :)
+
+Canada Freelancer front-end moved to the public so we can complete and work on a project together! :)
+
+This is going to benefit all of us.
+Freelancers can use and send the link of the real project to the company on their resumes. 
+We can understand the freelancer's needs on a project.
+For our future developer team, we can hire the right people from existing Contributors!
+
+To help with Canada Freelancer Project please make sure to commit your suggestions or help with the project please fork the project and push your update.
+After the developer team will check your update, then we are going to add your commit to the main repository!
 
 <img width="1680" alt="CF" src="https://user-images.githubusercontent.com/34953799/204886607-d56cb385-4716-44c0-b2e9-f93535b4c49e.png">
 

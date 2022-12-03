@@ -40,7 +40,11 @@ function NavBar() {
         } `}>
         <ul className={styles["navBar--menus_items"]}>
           <li>How it works</li>
-          <li>Find Talents</li>
+          <li>
+            <Link href="/freelancers">
+              <a className={styles["navBar--menu_links"]}>Find Talents</a>
+            </Link>
+          </li>
           <li>
             <Link href="/projects">
               <a className={styles["navBar--menu_links"]}>Find Jobs</a>

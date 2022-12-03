@@ -2,11 +2,11 @@ import React, {useState} from "react";
 import { MdReviews, MdOutlineWork, MdLocationOn, MdContactSupport } from "react-icons/md";
 import Link from "next/link";
 import listings from "../../utils/Listings";
-import Nav from "../../components/Nav/Nav";
 import Footer from "../../components/Footer/Footer";
 import SearchFilters from "./SearchFiltersF";
 import HeaderImage from "../../Components/HeaderImage/HeaderImage";
 import styles from "../../styles/FreelancersListing.module.css";
+import NavBar from "../Nav/NavBar";
 
 function JobsListing() {
   
@@ -111,7 +111,7 @@ function JobsListing() {
   return (
     <>
       <header>
-        <Nav/>  
+        <NavBar />
       </header>
       <main>
         <section>

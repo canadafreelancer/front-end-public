@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { MdReviews, MdOutlineWork, MdLocationOn } from "react-icons/md";
-import Nav from "../../components/Nav/Nav";
+import NavBar from "../../components/Nav/NavBar";
 import Footer from "../../components/Footer/Footer";
 import styles from "../../styles/FreelancerDetails.module.css";
 import listings from "../../utils/Listings";
@@ -31,7 +31,7 @@ function details({ user }) {
   return (
     <>
       <header>
-        <Nav />
+        <NavBar />
       </header>
       <main>
         <section className={styles["profile"]}>
