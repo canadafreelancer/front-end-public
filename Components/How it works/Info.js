@@ -10,6 +10,8 @@ import icon2 from "../../public/images/credit-card.png";
 import icon3 from "../../public/images/clipboard.png";
 import icon5 from "../../public/images/padlock.png";
 import icon6 from "../../public/images/support.png";
+import icon8 from "../../public/Images/chat.png";
+import icon9 from "../../public/Images/marker.png";
 import { RiNumber1, RiNumber2, RiNumber3 , RiNumber4 } from "react-icons/ri";
 import HeaderImage from "../HeaderImage/HeaderImage";
 
@@ -50,7 +52,7 @@ const Info = () => {
             )}
            {myMenus === "Freelancers" && (<h2 className={styles["first_heading"]}>Complete and set up your profile</h2>
             )}
-            {myMenus === "Freelancers" && (<p>Simply make a job post or project post on what you need done
+            {myMenus === "Freelancers" && (<p>Select your skills or expertise and upload a professional photo
               and recieve competitive bids from freelancers within minutes.
             </p>
             )}
@@ -58,27 +60,27 @@ const Info = () => {
             )}
             {myMenus === "Freelancers" && (<h2 className={styles["heading-2"]}>Browse jobs that suits you</h2>
             )}
-             {myMenus === "Freelancers" && (<p>Simply make a job post or project post on what you need done
-              and recieve competitive bids from freelancers within minutes.
+             {myMenus === "Freelancers" && (<p> Here we have jobs available for all skills and expertise levels. Save your search
+              and recieve alerts when jobs are available .
             </p>
             )}
              {myMenus === "Freelancers" && (<RiNumber3 className={styles["services_number"]} />
             )}
             {myMenus === "Freelancers" && (<h2 className={styles["heading-3"]}>Submit a decent proposal</h2>
             )}
-             {myMenus === "Freelancers" && (<p>Simply make a job post or project post on what you need done
-              and recieve competitive bids from freelancers within minutes.
+             {myMenus === "Freelancers" && (<p>Simply put your best foot foward and write the best bid possible
+              by Reading the project and let the clients know you are fit for it.
             </p>  
             )}
               {myMenus === "Freelancers" && (<RiNumber4 className={styles["services_number"]} />
             )}
-            {myMenus === "Freelancers" && (<h2 className={styles["heading-3"]}>Submit a decent proposal</h2>
+            {myMenus === "Freelancers" && (<h2 className={styles["heading-3"]}>Earn and get paid for work </h2>
             )}
-             {myMenus === "Freelancers" && (<p>Simply make a job post or project post on what you need done
-              and recieve competitive bids from freelancers within minutes.
+             {myMenus === "Freelancers" && (<p>Get ready to work as soon as you get hired. Deliver high quality
+              and recieve planned payments from client after completion.
             </p>  
             )}
-              {myMenus === "Freelancers" && (<button className={styles["button_freelancer"]}>post a job
+              {myMenus === "Freelancers" && (<button className={styles["button_freelancer"]}>Apply now 
             </button>  
           )}
           </div>
@@ -143,7 +145,7 @@ const Info = () => {
           <div className={styles["sec_1"]}>
           {myMenus === "Freelancers" && (<h1>Safe and Secure</h1>
         )}
-        {myMenus === "Freelancers" && (<p>CanadaFreelancers is a community that values your safety as how number 1 piority.
+        {myMenus === "Freelancers" && (<p>CanadaFreelancers is a community that values your safety as our number 1 piority.
            </p>
                 )}
          <div className={styles["wrapper"]}>
@@ -159,12 +161,18 @@ const Info = () => {
         )}        
           </div>      
           <div className={styles["sub-text_wrapper"]}>
-        {myMenus === "Freelancers" && (<h1>Your security matters to us and <br/> so does your information</h1>
+        {myMenus === "Freelancers" && (<MenuImage8 src={icon8} />
                   )}
-          {myMenus === "Freelancers" && (<h1> our 24/7 support team is readly made <br/>available to you anytime you need help</h1>
+          {myMenus === "Freelancers" && (<MenuImage9 src={icon9} />
+        )}        
+      </div>
+      <div className={styles["second_head_wrapper"]}>
+        {myMenus === "Freelancers" && (<h1>Easy Communication</h1>
+                  )}
+          {myMenus === "Freelancers" && (<h1> Bringing Canada freelancers together</h1>
         )}        
           </div>        
-            </div> 
+       </div> 
             <div className={styles["sec_2"]}>
            <div className={styles["image_field"]} >
            {myMenus === "Freelancers" && (<MenuImage7 src={customer} />
@@ -265,5 +273,30 @@ const MenuImage7 = ({ src }) => {
     />
   );
 }
+const MenuImage8  = ({ src }) => {
+  return (
+    <Image
+      src={src}
+      alt=""
+      width={50}
+      height={50}
+      layout="fixed"
+    />
+  );
+}
+const MenuImage9  = ({ src }) => {
+  return (
+    <Image
+      src={src}
+      alt=""
+      width={55}
+      height={54}
+      layout="fixed"
+    />
+  );
+}
+
+
+
 
 export default Info;

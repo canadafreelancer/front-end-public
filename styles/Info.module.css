@@ -126,7 +126,7 @@
     background-color: #c9184a;
     width: 100%;
     top:7rem;
-    height: 100vh;   
+    height: 135vh;   
 }
 .COL_1{
     width: 50%;
@@ -213,6 +213,8 @@
 }
 .employeer_first_section{
     display:flex;
+    position: relative;
+    top: 7rem;
     
     
     
@@ -224,6 +226,7 @@
 .column-2 h1{
     position: relative;
     margin-left: 17.8rem;
+    font-size: 70px;
 }
 .services_number{
     position: relative;
@@ -283,15 +286,18 @@
     
 }
 .sec_1 h1{
-    font-size: 35px;
+    font-size: 70px;
     position: relative; 
-    left: 6rem;  
+    left: 6rem;
+    color: rgb(235, 230, 230);
+      
 }
 .sec_1 p{
-    font-size: 18px;
+    font-size: 22px;
     position: relative;
     display: initial;
     white-space: pre;
+    color: rgb(235, 230, 230);
     
     
     
@@ -313,12 +319,14 @@
 }
 .head_wrapper h1{
     font-size: 25px;
+    color: rgb(236, 141, 77);
 }
 .sub-text_wrapper{
     position: relative;
-    top:14rem;
-    gap: 8.6rem;
+    top:18rem;
+    left:10rem;
     display: flex;
+    gap:16.2rem;
 }
 .sub-text_wrapper h1{
     font-size: 16px;
@@ -358,4 +366,15 @@
     background-color:#c9184a;
     color: black;
     
-}    
+} 
+.second_head_wrapper{
+   position: relative;
+   display: flex;
+   top:14rem;
+    gap: 10rem;
+    
+}
+.second_head_wrapper h1{
+    font-size: 25px;
+    color: rgb(235, 230, 230);
+}

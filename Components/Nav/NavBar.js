@@ -49,9 +49,9 @@ function NavBar() {
         </ul>
         <div className={styles["navBar--cta"]}>
           <ul className={styles["navBar--menus_items"]}>
-            <li>
+            <li> 
               <GiPadlockOpen className={styles["navBar--icon"]} />
-              Login
+                Login
             </li>
             <li>
               <BiUserCircle className={styles["navBar--icon"]} />
