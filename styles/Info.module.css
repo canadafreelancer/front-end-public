@@ -206,27 +206,37 @@
 
 .column-1{
     width: 50%;
+    display: flex;
 
 }
 .column-2{
     width: 50%;
+    position: relative;
+    bottom: 8rem;
 }
 .employeer_first_section{
     display:flex;
     position: relative;
     top: 7rem;
+    gap: 10rem;
     
     
     
 }
 .image_box{
     position: relative;
-    bottom: 10rem;
+    top:14rem;
+    right: 10rem;
+}
+.image_box_1{
+    position: relative;
+    transform: scale(-1, -1);
+    bottom:40.4rem;
 }
 .column-2 h1{
     position: relative;
     margin-left: 17.8rem;
-    font-size: 70px;
+    font-size: 40px;
 }
 .services_number{
     position: relative;
@@ -253,14 +263,14 @@
     font-size: 16px;
     position: relative;
     margin-right: 300px;
-    display: block;
-    left: 6rem;
+    display: inline-block;
+    left: 1rem;
     bottom: 9rem;
+    line-height: 20px;
 }
 .button_freelancer{
     background-color:#c9184a;
     color: #fff;
-    border-radius: 30px;
     font-weight: 300;
   position: relative;
    width: 170px;
@@ -319,7 +329,7 @@
 }
 .head_wrapper h1{
     font-size: 25px;
-    color: rgb(236, 141, 77);
+    color:rgb(235, 230, 230);
 }
 .sub-text_wrapper{
     position: relative;

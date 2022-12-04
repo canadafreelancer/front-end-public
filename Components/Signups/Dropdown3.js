@@ -63,6 +63,7 @@ const Dropdown3 = ({ label, value, options, onChange, name }) => {
     accent-color:#e83151;
     box-shadow: 0px 2px 2px rgb(189, 186, 186);
     font-weight:bold;
+    outline:none;
    }
       
       `}</style>

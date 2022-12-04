@@ -4,6 +4,7 @@ import freelanceLogo from "../../public/images/canadaFreelanceLogo.png";
 import Link from "next/link";
 import Image from "next/image";
 import Dropdown3 from "../../Components/Signups/Dropdown3";
+import FreelancerImage from "../HeaderImage/FreelancerImage";
 
 
 
@@ -16,7 +17,9 @@ function SignUpfreelancer() {
         <Image src={freelanceLogo} width={130} height={60} /> 
         <Link href="/SignUpFreePage">Looking for talent?</Link>
         <Link href="/SignUpFreePage">Join as a client</Link>       
-       </nav>  
+       </nav> 
+       <div className={styles["background-image__container"]}>
+        <FreelancerImage />  
             <fieldset className={styles["fieldset_container"]}>
             <div className={styles["signup_container"]}>
              <h1>Sign up as a freelancer </h1>       
@@ -40,13 +43,8 @@ function SignUpfreelancer() {
              <button className={styles["signup_button"]}>Create Account</button>          
              </form>      
             </div>
-            </fieldset>
-            <div className={styles["footer"]}>
-            <p>Copyright  © CanadaFreelancers. All Rights Reserved</p>
-
-            </div>
-            
-
+         </fieldset>    
+         </div>
         </section>
     );  
 }

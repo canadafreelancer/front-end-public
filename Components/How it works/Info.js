@@ -2,9 +2,10 @@ import React, { useState, useEffect, useRef } from "react";
 import styles from "../../styles/Info.module.css";
 import Image from "next/image";
 import Footer from "../../components/Footer/Footer";
+import worker from "../../public/images/man.png";
 import client from "../../public/images/client.jpg";
 import picture from "../../public/images/HeroImg.png";
-import customer from "../../public/images/free5.png";
+import customer from "../../public/images/remote.png";
 import icon from "../../public/images/flowchart.png";
 import icon2 from "../../public/images/credit-card.png";
 import icon3 from "../../public/images/clipboard.png";
@@ -39,7 +40,11 @@ const Info = () => {
           technical,professional and creative field.
         </p>}</p>
         <div className={styles["employeer_first_section"]}>
-        <div className={styles["column-1"]}>
+          <div className={styles["column-1"]}>
+          <div className={styles["image_box_1"]}>
+          {myMenus === "Freelancers" && (<MenuImage10 src={worker}/>
+          )}
+        </div>  
         <div className={styles["image_box"]}>
           {myMenus === "Freelancers" && (<MenuImage4 src={client}/>
           )}
@@ -234,9 +239,9 @@ const MenuImage4 = ({ src }) => {
     <Image
       src={src}
       alt=""
-      width={500}
-      height={500}
-      layout="intrinsic"
+      width={550}
+      height={550}
+      layout="fixed"
     />
   );
 }
@@ -291,6 +296,17 @@ const MenuImage9  = ({ src }) => {
       alt=""
       width={55}
       height={54}
+      layout="fixed"
+    />
+  );
+}
+const MenuImage10  = ({ src }) => {
+  return (
+    <Image
+      src={src}
+      alt=""
+      width={400}
+      height={400}
       layout="fixed"
     />
   );
