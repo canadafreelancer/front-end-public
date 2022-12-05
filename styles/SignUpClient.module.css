@@ -1,11 +1,11 @@
 .fieldset_container{
-    height: 80vh;
+    height: 85vh;
     width:610px;
     position: relative;
     left: 480px;
-    bottom:45rem; 
+    bottom:43rem; 
     border-radius: 14px;
-    background-color:#fff;
+    background-color:none;
     border:1px solid rgb(202, 193, 193);
 }
 .background-image__container {
@@ -87,7 +87,7 @@
     top:90px;
     left:80px;
     font-weight: bold;
-    box-shadow:  0px 2px 2px red;
+    box-shadow: 0px 2px 2px rgb(189, 186, 186);
     outline: none;
 }
 .lastname_input{
@@ -103,7 +103,7 @@
     top:90px;
     left:98px;
     font-weight: bold;
-    box-shadow: 0px 2px 2px red;
+    box-shadow: 0px 2px 2px rgb(189, 186, 186);
     outline: none;
 }
 .email_input{
@@ -134,7 +134,7 @@
     position:relative;
     top:116px;
     left:79px;
-    box-shadow: 0px 2px 2px red;
+    box-shadow: 0px 2px 2px rgb(189, 186, 186);
     accent-color: grey;
     font-weight: bold;
     outline: none;

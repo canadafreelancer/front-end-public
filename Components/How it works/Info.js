@@ -3,7 +3,7 @@ import styles from "../../styles/Info.module.css";
 import Image from "next/image";
 import Footer from "../../components/Footer/Footer";
 import worker from "../../public/images/man.png";
-import client from "../../public/images/client.jpg";
+import client from "../../public/images/client.png";
 import picture from "../../public/images/HeroImg.png";
 import customer from "../../public/images/remote.png";
 import icon from "../../public/images/flowchart.png";
