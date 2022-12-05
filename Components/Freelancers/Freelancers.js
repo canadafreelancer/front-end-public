@@ -3,10 +3,12 @@ import Image from "next/image";
 import listings from "../../utils/Listings";
 import styles from "../../styles/Freelancers.module.css";
 import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 
 function Freelancers() {
   const [width, setWidth] = useState(0);
   const carousel = useRef();
+  const router = useRouter();
 
   useEffect(() => {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
@@ -63,7 +65,7 @@ function Freelancers() {
                   ))}
                 </ul>
               </div>
-              <button className={styles["freelance_btn"]}>View Details</button>
+              <button className={styles["freelance_btn"]} onClick={()=>router.push(`/freelancers/${listing.id}`)}>View Details</button>
             </motion.article>
           ))}
         </motion.div>

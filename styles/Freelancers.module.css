@@ -103,6 +103,7 @@
   padding: 0.5rem 1rem;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  cursor: pointer;
 }
 .freelance_btn:hover,
 .freelance_btn:active {
