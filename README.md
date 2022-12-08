@@ -12,6 +12,7 @@ After the developer team will check your update, then we are going to add your c
 
 <img width="1680" alt="CF" src="https://user-images.githubusercontent.com/34953799/204886607-d56cb385-4716-44c0-b2e9-f93535b4c49e.png">
 
+(Please add the team member list here!)
 This is a Next.js project bootstrapped with create-next-app.
 
 Getting Started
