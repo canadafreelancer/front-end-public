@@ -6,6 +6,7 @@ import { BiUserCircle } from "react-icons/bi";
 import { GiPadlockOpen } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
+import Router, { useRouter } from "next/router";
 import Link from "next/link";
 
 function NavBar() {
@@ -28,7 +29,7 @@ function NavBar() {
       className={`${styles["navBar--container"]} ${
         isStickyNav && styles["nav--sticky"]
       }`}>
-      <div className={styles["navBar__brand"]}>
+      <div className={styles["navBar__brand"]} onClick={() => Router.push("/")}>
         <Image src={freelanceLogo} width={200} height={50} />
       </div>
       <div className={styles["nav_menu-icon"]} onClick={handleMenuClick}>
@@ -46,16 +47,16 @@ function NavBar() {
             </Link>
           </li>
           <li>
-            <Link href="/projects">
+            <Link href="/jobs">
               <a className={styles["navBar--menu_links"]}>Find Jobs</a>
             </Link>
           </li>
         </ul>
         <div className={styles["navBar--cta"]}>
           <ul className={styles["navBar--menus_items"]}>
-            <li> 
+            <li>
               <GiPadlockOpen className={styles["navBar--icon"]} />
-                Login
+              Login
             </li>
             <li>
               <BiUserCircle className={styles["navBar--icon"]} />
