@@ -1,16 +1,16 @@
 import React from "react";
-import BusinessDetails from "../../../Components/Categories/Business/BusinessDetail";
+import MusicDetails from "../../../Components/Categories/MusicAudio/MusicDetails";
 import HeaderBanner from "../../../Components/HeaderBanner/HeaderBanner";
 import Layout from "../../../Components/LayoutWrapper/Layout";
 import listings from "../../../utils/Listings";
 
-function allBusinessCat() {
-  return listings.filter((list) => list.category === "Business");
+function allMusicCat() {
+  return listings.filter((list) => list.category === "Music & Audio");
 }
 
 //get all ids from category
-function getAllBusinessIds() {
-  return allBusinessCat().map((item) => {
+function getAllMusicIds() {
+  return allMusicCat().map((item) => {
     return {
       params: {
         id: item.id.toString(),
@@ -20,13 +20,13 @@ function getAllBusinessIds() {
 }
 
 // //get  data
-function getBusinessData(id) {
+function getMusicData(id) {
   return listings.find((job) => job.id === parseInt(id));
 }
 
 export async function getStaticPaths() {
   // return a list of possible value of id
-  const paths = getAllBusinessIds();
+  const paths = getAllMusicIds();
   return {
     paths,
     fallback: false,
@@ -35,7 +35,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   //fetch necessary data using the  params.id
-  const data = getBusinessData(params.id);
+  const data = getMusicData(params.id);
 
   return {
     props: {
@@ -49,7 +49,7 @@ function Details({ data }) {
     <>
       <Layout>
         <HeaderBanner />
-        <BusinessDetails data={data} />
+        <MusicDetails data={data} />
       </Layout>
     </>
   );

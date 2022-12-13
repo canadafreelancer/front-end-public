@@ -1,0 +1,165 @@
+.jobDetails__container {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.jobDetails_subCaption {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+.jobDetails__category {
+  display: flex;
+  gap: 0.5rem;
+}
+.jobDetails__content {
+  margin-top: 2rem;
+  display: flex;
+}
+.jobDetails__main {
+  flex: 1;
+}
+.jobDetails_aside {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+.jobDetails__project {
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem 2rem 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.jobDetails__project > p {
+  padding-top: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.jobDetails__highlights {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.1rem;
+}
+.jobDetails__highlights > p:nth-of-type(1) {
+  background-color: #ffb4a2;
+  border-radius: 10px;
+
+  padding: 1rem;
+}
+.jobDetails__highlights > p:nth-of-type(2) {
+  background-color: #ffd6a5;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.jobDetails__highlights > p:nth-of-type(3) {
+  background-color: #fcd5ce;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.jobDetails__highlights > p > span {
+  font-weight: 900;
+}
+.jobDetails__skills {
+  margin-top: 1rem;
+}
+.jobDetails__skills > ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+.jobDetails__skills > ul > li {
+  margin-top: 1rem;
+  background-color: #ffb4a2;
+  padding: 0.5rem 1rem;
+}
+/* Aside */
+
+.aside_caption,
+.aside_btn,
+.aside_employerDetails {
+  display: grid;
+  place-items: center;
+}
+.aside_caption > h2 {
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+.aside_caption > p:nth-of-type(1) {
+  font-size: 3rem;
+}
+
+.aside_btn {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.aside_btn > button:nth-of-type(1),
+.aside_btn > button:nth-of-type(2) {
+  width: 60%;
+  border: none;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.aside_btn > button:nth-of-type(1) {
+  margin-top: 2rem;
+  background-color: #ffb4a2;
+}
+.aside_btn > button:nth-of-type(1):hover,
+.aside_btn > button:nth-of-type(1):active {
+  background-color: #c9184a;
+  cursor: pointer;
+  color: #fff;
+  transform: scale(90%);
+  transition: all 0.5s ease-in-out;
+}
+.aside_btn > button:nth-of-type(2):hover,
+.aside_btn > button:nth-of-type(2):active {
+  background-color: #c9184a;
+  color: #fff;
+  cursor: pointer;
+  transform: scale(90%);
+  transition: all 0.5s ease-in-out;
+}
+.aside_employerDetails {
+  margin-top: 2rem;
+  background-color: #fcd5ce;
+  border-radius: 10px;
+  line-height: 1.5;
+}
+.aside_employerDetails > h2 {
+  padding-top: 1.5rem;
+}
+.aside_btnContact {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 60%;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #c9184a;
+}
+.aside_btnContact:hover,
+.aside_btnContact:active {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #c9184a;
+  color: #c9184a;
+  transform: scale(90%);
+  transition: all 0.3s ease-in-out;
+}
+.aside__highlights {
+  display: flex;
+  gap: 2rem;
+}
+.aside_content {
+  font-weight: 600;
+}
