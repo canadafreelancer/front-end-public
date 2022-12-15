@@ -6,6 +6,7 @@
 .freelancers__sidebar {
   background-color: #fff;
   width: 25%;
+  height: fit-content;
 }
 .freelancers__main {
   flex: 1;
@@ -19,13 +20,45 @@
 .freelancer__layout--item {
   flex-basis: 28%;
   background-color: #fff;
+  border-top: 5px solid #c9184a;
   margin: 1rem;
-  padding: 1rem 1.5rem 0rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.freelancer__layout--item > article {
+  padding: 1rem 0rem 1rem;
+}
+.freelancer__details {
+  display: grid;
+  place-items: center;
+}
+.freelancer__details > h2 {
+  color: #c9184a;
+  margin-bottom: 0.5rem;
+}
+.freelancer__details > h2:hover,
+.freelancer__details > h2:active {
+  color: #e83151;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.freelancer__details > p {
+  color: #e83151;
+}
+.freelnacer__skillsContainer {
+  margin-top: 1rem;
+  display: grid;
+  place-items: center;
 }
 .freelancer__skills {
   display: flex;
   gap: 1rem;
   list-style-type: none;
+}
+.freelancer__skills--item {
+  background-color: #fcd5ce;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 20px;
 }
 .freelancer__profileImg--wrapper {
   display: grid;
@@ -34,4 +67,73 @@
 }
 .freelancer__profileImg {
   border-radius: 50%;
+}
+.freelancer__price {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.freelancer__price > p:nth-of-type(1) {
+  font-weight: 200;
+}
+.freelancer__price > p:nth-of-type(2) {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: #e83151;
+}
+.freelancer__location {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.freelancer__location > p:nth-of-type(1) {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+.freelancer_btn {
+  width: 100%;
+  border: none;
+  background-color: #fcd5ce;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.freelancer_btn:hover,
+.freelancer_btn:active {
+  background-color: #c9184a;
+  transform: scale(0.9);
+  transition: all 0.5s ease-in-out;
+  color: #fff;
+  cursor: pointer;
+}
+/* Responsiveness */
+@media only screen and (max-width: 600px) {
+  .freelancers__container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .freelancer__layout--item {
+    flex-basis: 100%;
+  }
+  .freelancers__sidebar {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .freelancers__container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .freelancer__layout--item {
+    flex-basis: 45%;
+  }
+  .freelancers__sidebar {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
 }

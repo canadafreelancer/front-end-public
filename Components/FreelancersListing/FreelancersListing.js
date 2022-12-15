@@ -1,11 +1,5 @@
 import React, { useState } from "react";
-import {
-  MdReviews,
-  MdOutlineWork,
-  MdLocationOn,
-  MdContactSupport,
-} from "react-icons/md";
-import Link from "next/link";
+
 import listings from "../../utils/Listings";
 import SearchFilters from "./SearchFiltersF";
 import styles from "../../styles/FreelancersListing.module.css";
@@ -39,6 +33,8 @@ function FreelancersListing() {
     }
     setCheckedOpt(newCheckedOpt);
   };
+
+  //handle submission of form
   const handleFormSubmit = (e, input, price) => {
     e.preventDefault();
 
@@ -46,9 +42,12 @@ function FreelancersListing() {
     if (input.length == 0 && checkedCat.length == 0 && checkedOpt.length == 0) {
       setList(listings);
     } else {
+      //filter by input field
       const filteredListByKey = [];
+      //checked in keyword is entered
       if (input.length > 0) {
         const lowerKeyword = input.toLowerCase();
+        //search each list for search input
         listings.map((item) => {
           if (
             item.category.toLowerCase().indexOf(lowerKeyword) != -1 ||
@@ -115,6 +114,7 @@ function FreelancersListing() {
     setList(finalFilteredList);
   };
 
+  //get single freelancer
   const freelancer = list.map((item) => <SingleFreelancer item={item} />);
 
   return (

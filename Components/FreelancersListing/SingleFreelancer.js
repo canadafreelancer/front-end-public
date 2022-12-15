@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import styles from "../../styles/FreelancersListing.module.css";
+import { ImLocation } from "react-icons/im";
 
 function SingleFreelancer({ item }) {
   const {
@@ -8,7 +9,11 @@ function SingleFreelancer({ item }) {
   } = item;
 
   //show skills
-  const skill = skills.map((skill) => <li key={skill}>{skill}</li>);
+  const skill = skills.map((skill) => (
+    <li key={skill} className={styles["freelancer__skills--item"]}>
+      {skill}
+    </li>
+  ));
   return (
     <>
       <li className={styles["freelancer__layout--item"]}>
@@ -22,18 +27,26 @@ function SingleFreelancer({ item }) {
               className={styles["freelancer__profileImg"]}
             />
           </div>
-          <div>
+          <div className={styles["freelancer__details"]}>
             <h2>{name}</h2>
             <p>{title}</p>
+          </div>
+          <div className={styles["freelancer__location"]}>
+            <p>
+              <ImLocation />
+            </p>
             <p>{location}</p>
           </div>
           {/* skills */}
-          <div>
+          <div className={styles["freelnacer__skillsContainer"]}>
             <ul className={styles["freelancer__skills"]}>{skill}</ul>
-            <p>{startingPrice}</p>
+          </div>
+          <div className={styles["freelancer__price"]}>
+            <p>Starting Price:</p>
+            <p>{`$ ${startingPrice.toFixed(2)}`}</p>
           </div>
         </article>
-        <button>View Details</button>
+        <button className={styles["freelancer_btn"]}>View Details</button>
       </li>
     </>
   );
