@@ -1,16 +1,19 @@
 import React from "react";
-import BusinessDetails from "../../../Components/Categories/Business/BusinessDetail";
+import WritingDetails from "../../../Components/Categories/Writing/WritingDetails";
 import HeaderBanner from "../../../Components/HeaderBanner/HeaderBanner";
 import Layout from "../../../Components/LayoutWrapper/Layout";
 import listings from "../../../utils/Listings";
 
-function allBusinessCat() {
-  return listings.filter((list) => list.category === "Business");
+// const allWritingCat = (){
+//   return listings.filter((list) => list.category === "Writing & Translation");
+// };
+function allWritingCat() {
+  return listings.filter((list) => list.category === "Writing & Translation");
 }
 
 //get all ids from category
-function getAllBusinessIds() {
-  return allBusinessCat().map((item) => {
+function getAllWritingIds() {
+  return allWritingCat().map((item) => {
     return {
       params: {
         id: item.id.toString(),
@@ -20,13 +23,13 @@ function getAllBusinessIds() {
 }
 
 // //get  data
-function getBusinessData(id) {
+function getWritingData(id) {
   return listings.find((job) => job.id === parseInt(id));
 }
 
 export async function getStaticPaths() {
   // return a list of possible value of id
-  const paths = getAllBusinessIds();
+  const paths = getAllWritingIds();
   return {
     paths,
     fallback: false,
@@ -35,7 +38,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   //fetch necessary data using the  params.id
-  const data = getBusinessData(params.id);
+  const data = getWritingData(params.id);
 
   return {
     props: {
@@ -49,7 +52,7 @@ function Details({ data }) {
     <>
       <Layout>
         <HeaderBanner />
-        <BusinessDetails data={data} />
+        <WritingDetails data={data} />
       </Layout>
     </>
   );

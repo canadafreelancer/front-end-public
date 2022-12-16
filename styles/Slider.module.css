@@ -1,0 +1,45 @@
+.slider__container {
+  height: 500px;
+  position: relative;
+  top: -20%;
+}
+.slider__leftArr,
+.slider__rightArr {
+  position: absolute;
+  top: 50%;
+  font-size: 3rem;
+  color: #c9184a;
+}
+.slider__rightArr {
+  right: 0.2rem;
+}
+.slider__leftArr {
+  left: 0.2rem;
+}
+.slider__leftArr:active,
+.slider__leftArr:hover,
+.slider__rightArr:active,
+.slider__rightArr:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  color: #e83151;
+  cursor: pointer;
+}
+
+.portfolio__img {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+  width: 600px;
+  height: 400px;
+}
+.slide {
+  opacity: 0;
+  display: none;
+  transition-duration: all 1s ease;
+}
+.slide__active {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+  transform: scale(1.08);
+}

@@ -1,0 +1,47 @@
+.form_container {
+  padding: 1.5rem;
+}
+.filter__container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.filter__heading {
+  color: #e83151;
+  padding-bottom: 1rem;
+}
+.filter__icon {
+  font-size: 1.5rem;
+}
+.filter__lists {
+  list-style-type: none;
+  cursor: pointer;
+}
+.filter__checkbox {
+  display: flex;
+  gap: 1rem;
+}
+.search__input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e83151;
+  background-color: #f5f5f5;
+  width: 90%;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.filter__btn {
+  margin-top: 1rem;
+  border: none;
+  background-color: #ffcccc;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  width: 100%;
+}
+.filter__btn:hover,
+.filter__btn:active {
+  background-color: #e83151;
+  color: #fff;
+  cursor: pointer;
+}
