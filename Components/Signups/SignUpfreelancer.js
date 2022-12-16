@@ -15,8 +15,18 @@ function SignUpfreelancer() {
         <section className={styles["section_container"]}>
         <nav className={styles["nav_container"]}>
         <Image src={freelanceLogo} width={130} height={60} /> 
-        <Link href="/SignUpFreePage">Looking for talent?</Link>
-        <Link href="/SignUpFreePage">Join as a client</Link>       
+        <ul className={styles["menu_list--option"]}>
+        <li>
+          <Link href="/HowItWorksPage">
+          <a className={styles["job_links"]}>How it works</a> 
+          </Link>
+          </li>  
+          <li>
+         <Link href="/freelancers">
+          <a className={styles["job_links"]}>Find Talents</a>
+          </Link>
+         </li>      
+        </ul>      
        </nav> 
        <div className={styles["background-image__container"]}>
         <FreelancerImage />  
