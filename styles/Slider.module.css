@@ -3,6 +3,8 @@
   position: relative;
   top: -20%;
 }
+.slider__item {
+}
 .slider__leftArr,
 .slider__rightArr {
   position: absolute;
@@ -11,7 +13,7 @@
   color: #c9184a;
 }
 .slider__rightArr {
-  right: 0.2rem;
+  right: 24%;
 }
 .slider__leftArr {
   left: 0.2rem;

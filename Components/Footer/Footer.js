@@ -9,7 +9,7 @@ import {
 import Image from "next/image";
 import Logo from "../../public/images/canadaFreelanceLogo.png";
 
-function Footer() {
+function FooterDetails() {
   return (
     <div className={styles["footer_container"]}>
       {/* <h3>CanadaFreelancer</h3> */}
@@ -66,4 +66,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default FooterDetails;

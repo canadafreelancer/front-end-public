@@ -6,6 +6,7 @@ const listings = [
       name: "Andrew Nelson",
       gender: "male",
       englishLevel: "fluent",
+      type: "Individual",
       coverImg: `https://source.unsplash.com/n4KewLKFOZw/200x300`,
       profilePic: `https://source.unsplash.com/1w9I6H4aftw/200x300`,
       profile: `Proident commodo Lorem commodo laborum cillum adipisicing esse sit nostrud ea.
@@ -33,9 +34,18 @@ const listings = [
          `,
         duration: `1-2 weeks`,
         portfolio: [
-          `https://source.unsplash.com/pl9DrjAMV6I/200x300`,
-          `https://source.unsplash.com/Px3iBXV-4TU/200x300`,
-          `https://source.unsplash.com/i1VQZsU86ok/200x300`,
+          {
+            id: 1,
+            img: `https://source.unsplash.com/pl9DrjAMV6I`,
+          },
+          {
+            id: 2,
+            img: `https://source.unsplash.com/Px3iBXV-4TU`,
+          },
+          {
+            id: 3,
+            img: `https://source.unsplash.com/i1VQZsU86ok`,
+          },
         ],
         packages: [
           {
@@ -92,7 +102,7 @@ const listings = [
       education: [
         {
           id: 1,
-          data: `2020-2022`,
+          date: `2020-2022`,
           course: `Bachlors in Fine Arts`,
           college: `Modern College`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -100,7 +110,7 @@ const listings = [
         },
         {
           id: 2,
-          data: `2020-2019`,
+          date: `2020-2019`,
           course: `Computer Science`,
           college: `Udemy`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -110,17 +120,17 @@ const listings = [
       work: [
         {
           id: 1,
-          data: `2020-2019`,
-          course: `UX Designer`,
-          college: `DropPlus`,
+          date: `2020-2019`,
+          title: `UX Designer`,
+          company: `DropPlus`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
         {
           id: 2,
-          data: `2020-2016`,
-          course: `Frontend Developer`,
-          college: `Tech Hive`,
+          date: `2020-2016`,
+          title: `Frontend Developer`,
+          company: `Tech Hive`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
@@ -132,6 +142,9 @@ const listings = [
     category: `Design & Creatives`,
     Freelancer: {
       name: "Randy Spanklu",
+      gender: "male",
+      englishLevel: "fluent",
+      type: "Individual",
       coverImg: `https://source.unsplash.com/H-LIL57PHCc/200x300`,
 
       profilePic: `https://source.unsplash.com/7YVZYZeITc8/200x300`,
@@ -161,9 +174,18 @@ const listings = [
          `,
         duration: `1-2 weeks`,
         portfolio: [
-          `https://source.unsplash.com/pl9DrjAMV6I/200x300`,
-          `https://source.unsplash.com/Px3iBXV-4TU/200x300`,
-          `https://source.unsplash.com/i1VQZsU86ok/200x300`,
+          {
+            id: 1,
+            img: `https://source.unsplash.com/pl9DrjAMV6I`,
+          },
+          {
+            id: 2,
+            img: `https://source.unsplash.com/Px3iBXV-4TU`,
+          },
+          {
+            id: 3,
+            img: `https://source.unsplash.com/i1VQZsU86ok`,
+          },
         ],
         packages: [
           {
@@ -220,7 +242,7 @@ const listings = [
       education: [
         {
           id: 1,
-          data: `2020-2022`,
+          date: `2020-2022`,
           course: `Bachlors in Fine Arts`,
           college: `Modern College`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -228,7 +250,7 @@ const listings = [
         },
         {
           id: 2,
-          data: `2020-2019`,
+          date: `2020-2019`,
           course: `Computer Science`,
           college: `Udemy`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -238,17 +260,17 @@ const listings = [
       work: [
         {
           id: 1,
-          data: `2020-2019`,
-          course: `UX Designer`,
-          college: `DropPlus`,
+          date: `2020-2019`,
+          title: `UX Designer`,
+          company: `DropPlus`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
         {
           id: 2,
-          data: `2020-2016`,
-          course: `Frontend Developer`,
-          college: `Tech Hive`,
+          date: `2020-2016`,
+          title: `Frontend Developer`,
+          company: `Tech Hive`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
@@ -260,6 +282,7 @@ const listings = [
     category: `Writing & Translation`,
     Freelancer: {
       name: "Kelvin Forson",
+      type: "Individual",
       gender: "male",
       englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/VkwRmha1_tI/200x300`,
@@ -290,9 +313,18 @@ const listings = [
          `,
         duration: `1-2 weeks`,
         portfolio: [
-          `https://source.unsplash.com/pl9DrjAMV6I/200x300`,
-          `https://source.unsplash.com/Px3iBXV-4TU/200x300`,
-          `https://source.unsplash.com/i1VQZsU86ok/200x300`,
+          {
+            id: 1,
+            img: `https://source.unsplash.com/pl9DrjAMV6I`,
+          },
+          {
+            id: 2,
+            img: `https://source.unsplash.com/Px3iBXV-4TU`,
+          },
+          {
+            id: 3,
+            img: `https://source.unsplash.com/i1VQZsU86ok`,
+          },
         ],
         packages: [
           {
@@ -349,7 +381,7 @@ const listings = [
       education: [
         {
           id: 1,
-          data: `2020-2022`,
+          date: `2020-2022`,
           course: `Bachlors in Fine Arts`,
           college: `Modern College`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -357,7 +389,7 @@ const listings = [
         },
         {
           id: 2,
-          data: `2020-2019`,
+          date: `2020-2019`,
           course: `Computer Science`,
           college: `Udemy`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -367,17 +399,17 @@ const listings = [
       work: [
         {
           id: 1,
-          data: `2020-2019`,
-          course: `UX Designer`,
-          college: `DropPlus`,
+          date: `2020-2019`,
+          title: `UX Designer`,
+          company: `DropPlus`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
         {
           id: 2,
-          data: `2020-2016`,
-          course: `Frontend Developer`,
-          college: `Tech Hive`,
+          date: `2020-2016`,
+          title: `Frontend Developer`,
+          company: `Tech Hive`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
@@ -389,6 +421,7 @@ const listings = [
     category: `Music & Audio`,
     Freelancer: {
       name: "Slyvia Odine",
+      type: "Individual",
       gender: "female",
       englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/n_qhPU-nsyc/200x300`,
@@ -419,9 +452,18 @@ const listings = [
          `,
         duration: `1-2 weeks`,
         portfolio: [
-          `https://source.unsplash.com/pl9DrjAMV6I/200x300`,
-          `https://source.unsplash.com/Px3iBXV-4TU/200x300`,
-          `https://source.unsplash.com/i1VQZsU86ok/200x300`,
+          {
+            id: 1,
+            img: `https://source.unsplash.com/pl9DrjAMV6I`,
+          },
+          {
+            id: 2,
+            img: `https://source.unsplash.com/Px3iBXV-4TU`,
+          },
+          {
+            id: 3,
+            img: `https://source.unsplash.com/i1VQZsU86ok`,
+          },
         ],
         packages: [
           {
@@ -478,7 +520,7 @@ const listings = [
       education: [
         {
           id: 1,
-          data: `2020-2022`,
+          date: `2020-2022`,
           course: `Bachlors in Fine Arts`,
           college: `Modern College`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -486,7 +528,7 @@ const listings = [
         },
         {
           id: 2,
-          data: `2020-2019`,
+          date: `2020-2019`,
           course: `Computer Science`,
           college: `Udemy`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -496,17 +538,17 @@ const listings = [
       work: [
         {
           id: 1,
-          data: `2020-2019`,
-          course: `UX Designer`,
-          college: `DropPlus`,
+          date: `2020-2019`,
+          title: `UX Designer`,
+          company: `DropPlus`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
         {
           id: 2,
-          data: `2020-2016`,
-          course: `Frontend Developer`,
-          college: `Tech Hive`,
+          date: `2020-2016`,
+          title: `Frontend Developer`,
+          company: `Tech Hive`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
@@ -518,6 +560,7 @@ const listings = [
     category: `Business`,
     Freelancer: {
       name: "Bruce Wayne",
+      type: "Company",
       gender: "male",
       englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/BeVGrXEktIk/200x300`,
@@ -548,9 +591,18 @@ const listings = [
          `,
         duration: `1-2 weeks`,
         portfolio: [
-          `https://source.unsplash.com/pl9DrjAMV6I/200x300`,
-          `https://source.unsplash.com/Px3iBXV-4TU/200x300`,
-          `https://source.unsplash.com/i1VQZsU86ok/200x300`,
+          {
+            id: 1,
+            img: `https://source.unsplash.com/pl9DrjAMV6I`,
+          },
+          {
+            id: 2,
+            img: `https://source.unsplash.com/Px3iBXV-4TU`,
+          },
+          {
+            id: 3,
+            img: `https://source.unsplash.com/i1VQZsU86ok`,
+          },
         ],
         packages: [
           {
@@ -607,7 +659,7 @@ const listings = [
       education: [
         {
           id: 1,
-          data: `2020-2022`,
+          date: `2020-2022`,
           course: `Bachlors in Fine Arts`,
           college: `Modern College`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -615,7 +667,7 @@ const listings = [
         },
         {
           id: 2,
-          data: `2020-2019`,
+          date: `2020-2019`,
           course: `Computer Science`,
           college: `Udemy`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -625,17 +677,17 @@ const listings = [
       work: [
         {
           id: 1,
-          data: `2020-2019`,
-          course: `UX Designer`,
-          college: `DropPlus`,
+          date: `2020-2019`,
+          title: `UX Designer`,
+          company: `DropPlus`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
         {
           id: 2,
-          data: `2020-2016`,
-          course: `Frontend Developer`,
-          college: `Tech Hive`,
+          date: `2020-2016`,
+          title: `Frontend Developer`,
+          company: `Tech Hive`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
@@ -647,6 +699,7 @@ const listings = [
     category: `Sales & Marketing`,
     Freelancer: {
       name: "Christiana Hero",
+      type: "Company",
       gender: "female",
       englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/mr4JG4SYOF8/200x300`,
@@ -676,9 +729,18 @@ const listings = [
          `,
         duration: `1-2 weeks`,
         portfolio: [
-          `https://source.unsplash.com/pl9DrjAMV6I/200x300`,
-          `https://source.unsplash.com/Px3iBXV-4TU/200x300`,
-          `https://source.unsplash.com/i1VQZsU86ok/200x300`,
+          {
+            id: 1,
+            img: `https://source.unsplash.com/pl9DrjAMV6I`,
+          },
+          {
+            id: 2,
+            img: `https://source.unsplash.com/Px3iBXV-4TU`,
+          },
+          {
+            id: 3,
+            img: `https://source.unsplash.com/i1VQZsU86ok`,
+          },
         ],
         packages: [
           {
@@ -735,7 +797,7 @@ const listings = [
       education: [
         {
           id: 1,
-          data: `2020-2022`,
+          date: `2020-2022`,
           course: `Bachlors in Fine Arts`,
           college: `Modern College`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -743,7 +805,7 @@ const listings = [
         },
         {
           id: 2,
-          data: `2020-2019`,
+          date: `2020-2019`,
           course: `Computer Science`,
           college: `Udemy`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -753,17 +815,17 @@ const listings = [
       work: [
         {
           id: 1,
-          data: `2020-2019`,
-          course: `UX Designer`,
-          college: `DropPlus`,
+          date: `2020-2019`,
+          title: `UX Designer`,
+          company: `DropPlus`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
         {
           id: 2,
-          data: `2020-2016`,
-          course: `Frontend Developer`,
-          college: `Tech Hive`,
+          date: `2020-2016`,
+          title: `Frontend Developer`,
+          company: `Tech Hive`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
@@ -775,6 +837,7 @@ const listings = [
     category: `Tech & Programming`,
     Freelancer: {
       name: "Joseph Plange",
+      type: "Individual",
       gender: "male",
       englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/pKRNxEguRgM/200x300`,
@@ -804,9 +867,18 @@ const listings = [
          `,
         duration: `1-2 weeks`,
         portfolio: [
-          `https://source.unsplash.com/pl9DrjAMV6I/200x300`,
-          `https://source.unsplash.com/Px3iBXV-4TU/200x300`,
-          `https://source.unsplash.com/i1VQZsU86ok/200x300`,
+          {
+            id: 1,
+            img: `https://source.unsplash.com/pl9DrjAMV6I`,
+          },
+          {
+            id: 2,
+            img: `https://source.unsplash.com/Px3iBXV-4TU`,
+          },
+          {
+            id: 3,
+            img: `https://source.unsplash.com/i1VQZsU86ok`,
+          },
         ],
         packages: [
           {
@@ -863,7 +935,7 @@ const listings = [
       education: [
         {
           id: 1,
-          data: `2020-2022`,
+          date: `2020-2022`,
           course: `Bachlors in Fine Arts`,
           college: `Modern College`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -871,7 +943,7 @@ const listings = [
         },
         {
           id: 2,
-          data: `2020-2019`,
+          date: `2020-2019`,
           course: `Computer Science`,
           college: `Udemy`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -881,17 +953,17 @@ const listings = [
       work: [
         {
           id: 1,
-          data: `2020-2019`,
-          course: `UX Designer`,
-          college: `DropPlus`,
+          date: `2020-2019`,
+          title: `UX Designer`,
+          company: `DropPlus`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
         {
           id: 2,
-          data: `2020-2016`,
-          course: `Frontend Developer`,
-          college: `Tech Hive`,
+          date: `2020-2016`,
+          title: `Frontend Developer`,
+          company: `Tech Hive`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
@@ -903,6 +975,7 @@ const listings = [
     category: `Music & Audio`,
     Freelancer: {
       name: "Cindia Tasms",
+      type: "Company",
       gender: "female",
       englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/dX76Mts-LVM/200x300`,
@@ -932,9 +1005,18 @@ const listings = [
          `,
         duration: `1-2 weeks`,
         portfolio: [
-          `https://source.unsplash.com/pl9DrjAMV6I/200x300`,
-          `https://source.unsplash.com/Px3iBXV-4TU/200x300`,
-          `https://source.unsplash.com/i1VQZsU86ok/200x300`,
+          {
+            id: 1,
+            img: `https://source.unsplash.com/pl9DrjAMV6I`,
+          },
+          {
+            id: 2,
+            img: `https://source.unsplash.com/Px3iBXV-4TU`,
+          },
+          {
+            id: 3,
+            img: `https://source.unsplash.com/i1VQZsU86ok`,
+          },
         ],
         packages: [
           {
@@ -991,7 +1073,7 @@ const listings = [
       education: [
         {
           id: 1,
-          data: `2020-2022`,
+          date: `2020-2022`,
           course: `Bachlors in Fine Arts`,
           college: `Modern College`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -999,7 +1081,7 @@ const listings = [
         },
         {
           id: 2,
-          data: `2020-2019`,
+          date: `2020-2019`,
           course: `Computer Science`,
           college: `Udemy`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -1009,17 +1091,17 @@ const listings = [
       work: [
         {
           id: 1,
-          data: `2020-2019`,
-          course: `UX Designer`,
-          college: `DropPlus`,
+          date: `2020-2019`,
+          title: `UX Designer`,
+          company: `DropPlus`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
         {
           id: 2,
-          data: `2020-2016`,
-          course: `Frontend Developer`,
-          college: `Tech Hive`,
+          date: `2020-2016`,
+          title: `Frontend Developer`,
+          company: `Tech Hive`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
@@ -1031,6 +1113,7 @@ const listings = [
     category: `Writing & Translation`,
     Freelancer: {
       name: "Jesica Rans",
+      type: "Individual",
       gender: "female",
       englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/uwpo02K55zw/200x300`,
@@ -1060,9 +1143,18 @@ const listings = [
          `,
         duration: `1-2 weeks`,
         portfolio: [
-          `https://source.unsplash.com/pl9DrjAMV6I/200x300`,
-          `https://source.unsplash.com/Px3iBXV-4TU/200x300`,
-          `https://source.unsplash.com/i1VQZsU86ok/200x300`,
+          {
+            id: 1,
+            img: `https://source.unsplash.com/pl9DrjAMV6I`,
+          },
+          {
+            id: 2,
+            img: `https://source.unsplash.com/Px3iBXV-4TU`,
+          },
+          {
+            id: 3,
+            img: `https://source.unsplash.com/i1VQZsU86ok`,
+          },
         ],
         packages: [
           {
@@ -1119,7 +1211,7 @@ const listings = [
       education: [
         {
           id: 1,
-          data: `2020-2022`,
+          date: `2020-2022`,
           course: `Bachlors in Fine Arts`,
           college: `Modern College`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -1127,7 +1219,7 @@ const listings = [
         },
         {
           id: 2,
-          data: `2020-2019`,
+          date: `2020-2019`,
           course: `Computer Science`,
           college: `Udemy`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -1137,17 +1229,17 @@ const listings = [
       work: [
         {
           id: 1,
-          data: `2020-2019`,
-          course: `UX Designer`,
-          college: `DropPlus`,
+          date: `2020-2019`,
+          title: `UX Designer`,
+          company: `DropPlus`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
         {
           id: 2,
-          data: `2020-2016`,
-          course: `Frontend Developer`,
-          college: `Tech Hive`,
+          date: `2020-2016`,
+          title: `Frontend Developer`,
+          company: `Tech Hive`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
@@ -1159,6 +1251,7 @@ const listings = [
     category: `Video & Animation`,
     Freelancer: {
       name: "Alexis Hervs",
+      type: "Individual",
       gender: "female",
       englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/xWkRYoSf8_c/200x300`,
@@ -1188,9 +1281,18 @@ const listings = [
          `,
         duration: `1-2 weeks`,
         portfolio: [
-          `https://source.unsplash.com/pl9DrjAMV6I/200x300`,
-          `https://source.unsplash.com/Px3iBXV-4TU/200x300`,
-          `https://source.unsplash.com/i1VQZsU86ok/200x300`,
+          {
+            id: 1,
+            img: `https://source.unsplash.com/pl9DrjAMV6I`,
+          },
+          {
+            id: 2,
+            img: `https://source.unsplash.com/Px3iBXV-4TU`,
+          },
+          {
+            id: 3,
+            img: `https://source.unsplash.com/i1VQZsU86ok`,
+          },
         ],
         packages: [
           {
@@ -1255,7 +1357,7 @@ const listings = [
         },
         {
           id: 2,
-          data: `2020-2019`,
+          date: `2020-2019`,
           course: `Computer Science`,
           college: `Udemy`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -1265,17 +1367,17 @@ const listings = [
       work: [
         {
           id: 1,
-          data: `2020-2019`,
-          course: `UX Designer`,
-          college: `DropPlus`,
+          date: `2020-2019`,
+          title: `UX Designer`,
+          company: `DropPlus`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
         {
           id: 2,
-          data: `2020-2016`,
-          course: `Frontend Developer`,
-          college: `Tech Hive`,
+          date: `2020-2016`,
+          title: `Frontend Developer`,
+          company: `Tech Hive`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
@@ -1287,6 +1389,7 @@ const listings = [
     category: `Lifestyle`,
     Freelancer: {
       name: "Krina Tams",
+      type: "Individual",
       gender: "female",
       englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/NTyBbu66_SI/200x300`,
@@ -1316,9 +1419,18 @@ const listings = [
          `,
         duration: `1-2 weeks`,
         portfolio: [
-          `https://source.unsplash.com/pl9DrjAMV6I/200x300`,
-          `https://source.unsplash.com/Px3iBXV-4TU/200x300`,
-          `https://source.unsplash.com/i1VQZsU86ok/200x300`,
+          {
+            id: 1,
+            img: `https://source.unsplash.com/pl9DrjAMV6I`,
+          },
+          {
+            id: 2,
+            img: `https://source.unsplash.com/Px3iBXV-4TU`,
+          },
+          {
+            id: 3,
+            img: `https://source.unsplash.com/i1VQZsU86ok`,
+          },
         ],
         packages: [
           {
@@ -1375,7 +1487,7 @@ const listings = [
       education: [
         {
           id: 1,
-          data: `2020-2022`,
+          date: `2020-2022`,
           course: `Bachlors in Fine Arts`,
           college: `Modern College`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -1393,17 +1505,17 @@ const listings = [
       work: [
         {
           id: 1,
-          data: `2020-2019`,
-          course: `UX Designer`,
-          college: `DropPlus`,
+          date: `2020-2019`,
+          title: `UX Designer`,
+          company: `DropPlus`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
         {
           id: 2,
-          data: `2020-2016`,
-          course: `Frontend Developer`,
-          college: `Tech Hive`,
+          date: `2020-2016`,
+          title: `Frontend Developer`,
+          company: `Tech Hive`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
@@ -1415,6 +1527,7 @@ const listings = [
     category: `Sales & Marketting`,
     Freelancer: {
       name: "Kingsley Kevian",
+      type: "Company",
       gender: "male",
       englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/v89zhr0iBFY/200x300`,
@@ -1444,9 +1557,18 @@ const listings = [
          `,
         duration: `1-2 weeks`,
         portfolio: [
-          `https://source.unsplash.com/pl9DrjAMV6I/200x300`,
-          `https://source.unsplash.com/Px3iBXV-4TU/200x300`,
-          `https://source.unsplash.com/i1VQZsU86ok/200x300`,
+          {
+            id: 1,
+            img: `https://source.unsplash.com/pl9DrjAMV6I`,
+          },
+          {
+            id: 2,
+            img: `https://source.unsplash.com/Px3iBXV-4TU`,
+          },
+          {
+            id: 3,
+            img: `https://source.unsplash.com/i1VQZsU86ok`,
+          },
         ],
         packages: [
           {
@@ -1503,7 +1625,7 @@ const listings = [
       education: [
         {
           id: 1,
-          data: `2020-2022`,
+          date: `2020-2022`,
           course: `Bachlors in Fine Arts`,
           college: `Modern College`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -1511,7 +1633,7 @@ const listings = [
         },
         {
           id: 2,
-          data: `2020-2019`,
+          date: `2020-2019`,
           course: `Computer Science`,
           college: `Udemy`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -1521,17 +1643,17 @@ const listings = [
       work: [
         {
           id: 1,
-          data: `2020-2019`,
-          course: `UX Designer`,
-          college: `DropPlus`,
+          date: `2020-2019`,
+          title: `UX Designer`,
+          company: `DropPlus`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },
         {
           id: 2,
-          data: `2020-2016`,
-          course: `Frontend Developer`,
-          college: `Tech Hive`,
+          date: `2020-2016`,
+          title: `Frontend Developer`,
+          company: `Tech Hive`,
           details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
         },

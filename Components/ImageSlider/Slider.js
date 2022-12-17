@@ -6,6 +6,7 @@ import { CgChevronRightR, CgChevronLeftR } from "react-icons/cg";
 function Slider({ portfolio }) {
   const [current, setCurrent] = useState(0);
   const length = portfolio.length;
+  console.log(portfolio);
 
   const showNextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
@@ -20,28 +21,30 @@ function Slider({ portfolio }) {
   return (
     <>
       <section className={styles["slider__container"]}>
-        <CgChevronLeftR
-          onClick={showPrevSlide}
-          className={styles["slider__leftArr"]}
-        />
-        <CgChevronRightR
-          onClick={showNextSlide}
-          className={styles["slider__rightArr"]}
-        />
+        <div className={styles["slider__item"]}>
+          <CgChevronLeftR
+            onClick={showPrevSlide}
+            className={styles["slider__leftArr"]}
+          />
+          <CgChevronRightR
+            onClick={showNextSlide}
+            className={styles["slider__rightArr"]}
+          />
 
-        {portfolio.map((portfolio, index) => {
-          return (
-            <div
-              key={index}
-              className={`${styles["portfolio__img"]}  ${
-                index === current ? styles["slide__active"] : styles["slide"]
-              }`}>
-              {index === current && (
-                <Image src={portfolio.img} alt="Slider" layout="fill" />
-              )}
-            </div>
-          );
-        })}
+          {portfolio.map((portfolio, index) => {
+            return (
+              <div
+                key={index}
+                className={`${styles["portfolio__img"]}  ${
+                  index === current ? styles["slide__active"] : styles["slide"]
+                }`}>
+                {index === current && (
+                  <Image src={portfolio.img} alt="Slider" layout="fill" />
+                )}
+              </div>
+            );
+          })}
+        </div>
       </section>
     </>
   );

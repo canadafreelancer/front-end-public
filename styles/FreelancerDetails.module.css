@@ -5,6 +5,7 @@
 .freelancerDetails__topDtls {
   display: flex;
   background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   width: 100%;
   gap: 2rem;
   padding: 2rem;
@@ -25,15 +26,16 @@
 .freelancer__details > h3 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  font-size: 1.4rem;
+  background-color: #fcd5ce;
+  padding: 0.5rem;
+  width: fit-content;
+  font-size: 1.2rem;
 }
 .freelancer__details > p:nth-of-type(1) {
   font-size: 1.1rem;
-  background-color: #c9184a;
   border-radius: 10px;
   padding: 0.5rem;
-  color: #fff;
-  width: fit-content;
+  color: #c9184a;
 }
 .freelancer__loc {
   display: flex;
@@ -44,15 +46,47 @@
   display: flex;
   margin-top: 2rem;
 }
-.freelancer__about,
-.freelancer__aside {
+.freelancer__about {
   background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 20px;
 }
+/* Aside About  */
 .freelancer__aside {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
   width: 30%;
   margin-left: 2rem;
   padding: 2rem;
+  background-color: #fcd5ce;
+}
+.freelancer__aside--aboutDetls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+/* Aside Skills */
+.freelancer__skillsContainer {
+  margin-top: 1rem;
+}
+.freelancer__skillsItems {
+  margin-top: 1rem;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.freelancer__skillsItems > li {
+  background-color: #c9184a;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: #fff;
+}
+.freelancer__aside--icon {
+  margin-right: 0.5rem;
+  color: #c9184a;
 }
 .freelancer__about {
   flex: 1;
@@ -68,17 +102,114 @@
   margin-right: 0.5rem;
   color: #c9184a;
 }
-.freelancer__btnContainer > p {
-  font-size: 1.3rem;
+.freelancer__price {
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 800;
+  color: #c9184a;
+}
+.freelancer__price > span {
+  font-weight: 400;
+  color: black;
 }
 .freelancer__btn {
-  padding: 0.5rem;
-  font-size: 1.1rem;
-  border-radius: 20px;
-  outline: none;
+  display: flex;
+  gap: 2rem;
+}
+.freelancer__btn > button {
+  margin-top: 1.5rem;
   border: none;
-  margin-top: 2rem;
-  width: 100%;
-  color: #fff;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 1.1rem;
+}
+.freelancer__btn > button:nth-of-type(1) {
   background-color: #c9184a;
+  color: #fff;
+}
+.freelancer__btn > button:nth-of-type(1):hover,
+.freelancer__btn > button:nth-of-type(1):active {
+  background-color: #fcd5ce;
+  cursor: pointer;
+  color: #040f16;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.freelancer__btn > button:nth-of-type(2) {
+  background-color: #fcd5ce;
+}
+.freelancer__btn > button:nth-of-type(2):hover,
+.freelancer__btn > button:nth-of-type(2):active {
+  background-color: #c9184a;
+  cursor: pointer;
+  color: #fff;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+/* Education timeline */
+.freelancer__education {
+  margin-top: 2rem;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 2rem;
+  border-radius: 20px;
+}
+.freelancer__timeline {
+  position: relative;
+  /* width: 80%; */
+}
+.freelancer__timeline--line {
+  border-right: 2px dashed #c9184a;
+  left: 0.7rem;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+}
+.freelancer__timeline--items > ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.timeline__item {
+  margin-bottom: 8px;
+}
+
+.timeline__top {
+  align-items: center;
+  display: flex;
+}
+
+.timeline__circle {
+  /* Rounded border */
+  background-color: #fcd5ce;
+  border-radius: 9999px;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.timeline__desc {
+  margin-left: 2rem;
+}
+.timeline__desc > h2 {
+  margin-bottom: 1rem;
+  color: #c9184a;
+}
+.timeline__desc > h3,
+.timeline__desc > p {
+  margin-bottom: 1rem;
+}
+
+/* Work Experience */
+.freelancer__work {
+  margin-top: 2rem;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 2rem;
+  border-radius: 20px;
+}
+/* Portfolio */
+.portfolio__container > h2 {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
