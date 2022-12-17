@@ -2,9 +2,10 @@ const listings = [
   {
     id: 1,
     category: "Tech & Programming",
-
     Freelancer: {
       name: "Andrew Nelson",
+      gender: "male",
+      englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/n4KewLKFOZw/200x300`,
       profilePic: `https://source.unsplash.com/1w9I6H4aftw/200x300`,
       profile: `Proident commodo Lorem commodo laborum cillum adipisicing esse sit nostrud ea.
@@ -88,6 +89,42 @@ const listings = [
           },
         ],
       },
+      education: [
+        {
+          id: 1,
+          data: `2020-2022`,
+          course: `Bachlors in Fine Arts`,
+          college: `Modern College`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2019`,
+          course: `Computer Science`,
+          college: `Udemy`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
+      work: [
+        {
+          id: 1,
+          data: `2020-2019`,
+          course: `UX Designer`,
+          college: `DropPlus`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2016`,
+          course: `Frontend Developer`,
+          college: `Tech Hive`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
     },
   },
   {
@@ -180,6 +217,42 @@ const listings = [
           },
         ],
       },
+      education: [
+        {
+          id: 1,
+          data: `2020-2022`,
+          course: `Bachlors in Fine Arts`,
+          college: `Modern College`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2019`,
+          course: `Computer Science`,
+          college: `Udemy`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
+      work: [
+        {
+          id: 1,
+          data: `2020-2019`,
+          course: `UX Designer`,
+          college: `DropPlus`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2016`,
+          course: `Frontend Developer`,
+          college: `Tech Hive`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
     },
   },
   {
@@ -187,6 +260,8 @@ const listings = [
     category: `Writing & Translation`,
     Freelancer: {
       name: "Kelvin Forson",
+      gender: "male",
+      englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/VkwRmha1_tI/200x300`,
       profilePic: `https://source.unsplash.com/C8Ta0gwPbQg/200x300`,
       profile: `Proident commodo Lorem commodo laborum cillum adipisicing esse sit nostrud ea.
@@ -271,6 +346,42 @@ const listings = [
           },
         ],
       },
+      education: [
+        {
+          id: 1,
+          data: `2020-2022`,
+          course: `Bachlors in Fine Arts`,
+          college: `Modern College`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2019`,
+          course: `Computer Science`,
+          college: `Udemy`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
+      work: [
+        {
+          id: 1,
+          data: `2020-2019`,
+          course: `UX Designer`,
+          college: `DropPlus`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2016`,
+          course: `Frontend Developer`,
+          college: `Tech Hive`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
     },
   },
   {
@@ -278,6 +389,8 @@ const listings = [
     category: `Music & Audio`,
     Freelancer: {
       name: "Slyvia Odine",
+      gender: "female",
+      englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/n_qhPU-nsyc/200x300`,
 
       profilePic: `https://source.unsplash.com/QXevDflbl8A/200x300`,
@@ -362,6 +475,42 @@ const listings = [
           },
         ],
       },
+      education: [
+        {
+          id: 1,
+          data: `2020-2022`,
+          course: `Bachlors in Fine Arts`,
+          college: `Modern College`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2019`,
+          course: `Computer Science`,
+          college: `Udemy`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
+      work: [
+        {
+          id: 1,
+          data: `2020-2019`,
+          course: `UX Designer`,
+          college: `DropPlus`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2016`,
+          course: `Frontend Developer`,
+          college: `Tech Hive`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
     },
   },
   {
@@ -369,6 +518,8 @@ const listings = [
     category: `Business`,
     Freelancer: {
       name: "Bruce Wayne",
+      gender: "male",
+      englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/BeVGrXEktIk/200x300`,
 
       profilePic: `https://source.unsplash.com/mjRwhvqEC0U/200x300`,
@@ -453,6 +604,42 @@ const listings = [
           },
         ],
       },
+      education: [
+        {
+          id: 1,
+          data: `2020-2022`,
+          course: `Bachlors in Fine Arts`,
+          college: `Modern College`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2019`,
+          course: `Computer Science`,
+          college: `Udemy`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
+      work: [
+        {
+          id: 1,
+          data: `2020-2019`,
+          course: `UX Designer`,
+          college: `DropPlus`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2016`,
+          course: `Frontend Developer`,
+          college: `Tech Hive`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
     },
   },
   {
@@ -460,6 +647,8 @@ const listings = [
     category: `Sales & Marketing`,
     Freelancer: {
       name: "Christiana Hero",
+      gender: "female",
+      englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/mr4JG4SYOF8/200x300`,
       profilePic: `https://source.unsplash.com/rDEOVtE7vOs/200x300`,
       profile: `Proident commodo Lorem commodo laborum cillum adipisicing esse sit nostrud ea.
@@ -543,6 +732,42 @@ const listings = [
           },
         ],
       },
+      education: [
+        {
+          id: 1,
+          data: `2020-2022`,
+          course: `Bachlors in Fine Arts`,
+          college: `Modern College`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2019`,
+          course: `Computer Science`,
+          college: `Udemy`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
+      work: [
+        {
+          id: 1,
+          data: `2020-2019`,
+          course: `UX Designer`,
+          college: `DropPlus`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2016`,
+          course: `Frontend Developer`,
+          college: `Tech Hive`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
     },
   },
   {
@@ -550,6 +775,8 @@ const listings = [
     category: `Tech & Programming`,
     Freelancer: {
       name: "Joseph Plange",
+      gender: "male",
+      englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/pKRNxEguRgM/200x300`,
       profilePic: `https://source.unsplash.com/c_GmwfHBDzk/200x300`,
       profile: `Proident commodo Lorem commodo laborum cillum adipisicing esse sit nostrud ea.
@@ -633,6 +860,42 @@ const listings = [
           },
         ],
       },
+      education: [
+        {
+          id: 1,
+          data: `2020-2022`,
+          course: `Bachlors in Fine Arts`,
+          college: `Modern College`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2019`,
+          course: `Computer Science`,
+          college: `Udemy`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
+      work: [
+        {
+          id: 1,
+          data: `2020-2019`,
+          course: `UX Designer`,
+          college: `DropPlus`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2016`,
+          course: `Frontend Developer`,
+          college: `Tech Hive`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
     },
   },
   {
@@ -640,6 +903,8 @@ const listings = [
     category: `Music & Audio`,
     Freelancer: {
       name: "Cindia Tasms",
+      gender: "female",
+      englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/dX76Mts-LVM/200x300`,
       profilePic: `https://source.unsplash.com/_cvwXhGqG-o/200x300`,
       profile: `Proident commodo Lorem commodo laborum cillum adipisicing esse sit nostrud ea.
@@ -723,6 +988,42 @@ const listings = [
           },
         ],
       },
+      education: [
+        {
+          id: 1,
+          data: `2020-2022`,
+          course: `Bachlors in Fine Arts`,
+          college: `Modern College`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2019`,
+          course: `Computer Science`,
+          college: `Udemy`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
+      work: [
+        {
+          id: 1,
+          data: `2020-2019`,
+          course: `UX Designer`,
+          college: `DropPlus`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2016`,
+          course: `Frontend Developer`,
+          college: `Tech Hive`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
     },
   },
   {
@@ -730,6 +1031,8 @@ const listings = [
     category: `Writing & Translation`,
     Freelancer: {
       name: "Jesica Rans",
+      gender: "female",
+      englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/uwpo02K55zw/200x300`,
       profilePic: `https://source.unsplash.com/l35dDPD3Gys/200x300`,
       profile: `Proident commodo Lorem commodo laborum cillum adipisicing esse sit nostrud ea.
@@ -813,6 +1116,42 @@ const listings = [
           },
         ],
       },
+      education: [
+        {
+          id: 1,
+          data: `2020-2022`,
+          course: `Bachlors in Fine Arts`,
+          college: `Modern College`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2019`,
+          course: `Computer Science`,
+          college: `Udemy`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
+      work: [
+        {
+          id: 1,
+          data: `2020-2019`,
+          course: `UX Designer`,
+          college: `DropPlus`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2016`,
+          course: `Frontend Developer`,
+          college: `Tech Hive`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
     },
   },
   {
@@ -820,6 +1159,8 @@ const listings = [
     category: `Video & Animation`,
     Freelancer: {
       name: "Alexis Hervs",
+      gender: "female",
+      englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/xWkRYoSf8_c/200x300`,
       profilePic: `https://source.unsplash.com/l3IHXOdMyHQ/200x300`,
       profile: `Proident commodo Lorem commodo laborum cillum adipisicing esse sit nostrud ea.
@@ -903,6 +1244,42 @@ const listings = [
           },
         ],
       },
+      education: [
+        {
+          id: 1,
+          data: `2020-2022`,
+          course: `Bachlors in Fine Arts`,
+          college: `Modern College`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2019`,
+          course: `Computer Science`,
+          college: `Udemy`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
+      work: [
+        {
+          id: 1,
+          data: `2020-2019`,
+          course: `UX Designer`,
+          college: `DropPlus`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2016`,
+          course: `Frontend Developer`,
+          college: `Tech Hive`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
     },
   },
   {
@@ -910,6 +1287,8 @@ const listings = [
     category: `Lifestyle`,
     Freelancer: {
       name: "Krina Tams",
+      gender: "female",
+      englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/NTyBbu66_SI/200x300`,
       profilePic: `https://source.unsplash.com/EGVccebWodM/200x300`,
       profile: `Proident commodo Lorem commodo laborum cillum adipisicing esse sit nostrud ea.
@@ -993,6 +1372,42 @@ const listings = [
           },
         ],
       },
+      education: [
+        {
+          id: 1,
+          data: `2020-2022`,
+          course: `Bachlors in Fine Arts`,
+          college: `Modern College`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2019`,
+          course: `Computer Science`,
+          college: `Udemy`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
+      work: [
+        {
+          id: 1,
+          data: `2020-2019`,
+          course: `UX Designer`,
+          college: `DropPlus`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2016`,
+          course: `Frontend Developer`,
+          college: `Tech Hive`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
     },
   },
   {
@@ -1000,6 +1415,8 @@ const listings = [
     category: `Sales & Marketting`,
     Freelancer: {
       name: "Kingsley Kevian",
+      gender: "male",
+      englishLevel: "fluent",
       coverImg: `https://source.unsplash.com/v89zhr0iBFY/200x300`,
       profilePic: `https://source.unsplash.com/ILip77SbmOE/200x300`,
       profile: `Proident commodo Lorem commodo laborum cillum adipisicing esse sit nostrud ea.
@@ -1083,6 +1500,42 @@ const listings = [
           },
         ],
       },
+      education: [
+        {
+          id: 1,
+          data: `2020-2022`,
+          course: `Bachlors in Fine Arts`,
+          college: `Modern College`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2019`,
+          course: `Computer Science`,
+          college: `Udemy`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
+      work: [
+        {
+          id: 1,
+          data: `2020-2019`,
+          course: `UX Designer`,
+          college: `DropPlus`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+        {
+          id: 2,
+          data: `2020-2016`,
+          course: `Frontend Developer`,
+          college: `Tech Hive`,
+          details: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.`,
+        },
+      ],
     },
   },
 ];

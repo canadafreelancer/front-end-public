@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "../../styles/FreelancersListing.module.css";
 import { ImLocation } from "react-icons/im";
+import Link from "next/link";
 
 function SingleFreelancer({ item }) {
   const {
@@ -16,7 +17,7 @@ function SingleFreelancer({ item }) {
   ));
   return (
     <>
-      <li className={styles["freelancer__layout--item"]}>
+      <li className={styles["freelancer__layout--item"]} key={item.id}>
         <article>
           <div className={styles["freelancer__profileImg--wrapper"]}>
             <Image
@@ -46,7 +47,9 @@ function SingleFreelancer({ item }) {
             <p>{`$ ${startingPrice.toFixed(2)}`}</p>
           </div>
         </article>
-        <button className={styles["freelancer_btn"]}>View Details</button>
+        <Link href={`/freelancers/${item.id}`}>
+          <button className={styles["freelancer_btn"]}>View Details</button>
+        </Link>
       </li>
     </>
   );
