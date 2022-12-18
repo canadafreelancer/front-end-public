@@ -111,3 +111,35 @@
   color: #fff;
   font-size: 2.5rem;
 }
+/* Responsiveness */
+@media only screen and (max-width: 600px) {
+  .jobListing_container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .jobListing_container__sidebar {
+    width: 100%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .jobRequest_duration {
+    display: flex;
+    flex-direction: column;
+  }
+  .jobRequest_duration > p {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .jobListing_container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .jobListing_container__sidebar {
+    width: 100%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+}

@@ -45,3 +45,25 @@
   transition: all 1s ease-in-out;
   transform: scale(1.08);
 }
+/* Responsiveness */
+@media only screen and (max-width: 600px) {
+  .slider__leftArr {
+    left: -10%;
+  }
+  .slider__rightArr {
+    right: -10%;
+  }
+  .portfolio__img {
+    width: 80%;
+    height: 70%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .slider__rightArr {
+    right: -2%;
+  }
+  .portfolio__img {
+    width: 80%;
+    height: 70%;
+  }
+}

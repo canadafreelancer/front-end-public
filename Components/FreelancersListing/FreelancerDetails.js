@@ -9,6 +9,8 @@ import { AiFillStar, AiOutlineCheckSquare } from "react-icons/ai";
 import { TbLanguageKatakana } from "react-icons/tb";
 import Review from "../Reviews/Review";
 import Slider from "../ImageSlider/Slider";
+import SuggestedFreelancers from "../SuggestedFreelancers/SuggestedFreelancers";
+import listings from "../../utils/Listings";
 
 function FreelancerDetails({ user }) {
   const {
@@ -29,6 +31,9 @@ function FreelancerDetails({ user }) {
       projectDetails: { overview, reviews, portfolio },
     },
   } = user;
+
+  //filter suggested freelancers
+  const filterFreelancers = listings.filter((list) => list.id !== user.id);
 
   //get each education
   const listEducation = education.map((item) => (
@@ -193,6 +198,10 @@ function FreelancerDetails({ user }) {
         {/* Reviews */}
         <section>
           <Review reviews={reviews} />
+        </section>
+        {/* Suggested Freelancers */}
+        <section>
+          <SuggestedFreelancers filterFreelancers={filterFreelancers} />
         </section>
       </section>
     </>

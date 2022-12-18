@@ -6,7 +6,6 @@ import { CgChevronRightR, CgChevronLeftR } from "react-icons/cg";
 function Slider({ portfolio }) {
   const [current, setCurrent] = useState(0);
   const length = portfolio.length;
-  console.log(portfolio);
 
   const showNextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);

@@ -1,8 +1,3 @@
-import Image from "next/image";
-import { MdReviews, MdOutlineWork, MdLocationOn } from "react-icons/md";
-import NavBar from "../../components/Nav/NavBar";
-import Footer from "../../components/Footer/Footer";
-import styles from "../../styles/FreelancerDetails.module.css";
 import listings from "../../utils/Listings";
 import Layout from "../../Components/LayoutWrapper/Layout";
 import FreelancerDetails from "../../Components/FreelancersListing/FreelancerDetails";
