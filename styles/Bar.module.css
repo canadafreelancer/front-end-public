@@ -1,0 +1,30 @@
+.parent_container {
+    width: auto;
+    height: 1.5cm;
+    background-color: rgb(255, 224, 224);
+    display: flex;
+}
+
+.home-icon{
+    position: relative;
+    top: 15px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.home-btn{
+    padding-left: 10px;
+}
+
+.col-2 {
+    font-size: 16px;
+    position: relative;
+    top: 18px;
+    padding-left: 15px;
+}
+
+.col-2 > p {
+    position: relative;
+    bottom: 20px;
+    left: 25px
+}
