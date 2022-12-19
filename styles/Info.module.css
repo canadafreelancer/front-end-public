@@ -72,8 +72,7 @@
     transform: translateX(-100%);
     opacity: 0.3;
     filter: brightness(-10);
-    
-    
+        
 }
 .tab_links:hover::before{
     transform: translateX(0);
@@ -112,8 +111,6 @@
     position: relative;
    margin-left: 7rem;
    right: 3rem;
-
-
 }
 .paragraph_wrapper p{
     font-size: 20px;
@@ -237,7 +234,7 @@
 .image_box_1{
     position: relative;
     transform: scale(-1, -1);
-    bottom:40.2rem;
+    bottom:40rem;
     left: 5rem;
 }
 .column-2 h1{
@@ -267,7 +264,7 @@
     margin-left:4.8rem;
 }
 .column-2 p{
-    font-size: 16px;
+    font-size: 18px;
     position: relative;
     margin-right: 300px;
     display: inline-block;
@@ -394,4 +391,172 @@
 .second_head_wrapper h1{
     font-size: 25px;
     color: rgb(235, 230, 230);
+} 
+
+/* Media Queries */
+@media only screen and (max-width: 600px){
+    .container{
+    width: 41rem;
+    height: 80vh;
+
+    }
+    .header-image__container {
+        position: absolute;
+        width: 41rem;
+        height: 30px;
+      }
+      .title_container .tab_links{
+        text-align: center;
+        font-size: 16px;
+        position: relative;
+       
+        
+    } 
+    .tab_links{
+        background-color:none;
+        padding: 10px 150px 90px 30px;
+        position: relative;
+        transition: all 1s;
+        overflow: hidden;
+        font-weight: bold;
+        text-align: center;
+     
+    }
+    .title_container{
+        display: flex;
+        text-align: center;
+       column-gap: 2rem;
+        position: relative;
+        top: 13rem;
+        right: 23rem;
+        
+    }
+    .tab_links::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 400px;
+        height: 40%;
+        background-color:rgb(204, 91, 91);
+        transition: all 1s;
+        z-index:0;
+        transform: translateX(-100%);
+        opacity: 0.3;
+        filter: brightness(-10);
+            
+    }
+    .content_container{
+        display: block;
+        text-align: center;
+        position: relative;
+        top:300px;
+        background-color: antiquewhite;
+    }
+    .content_container h1{
+        font-size: 25px;
+        position: relative;
+        color: #c9184a;
+        display: block;
+       left: 1.2rem;
+       font-weight: 700;
+    }
+    .content_container .first_paragraph{
+        position: relative;
+        bottom: 8rem;
+        font-size: 16px;
+        margin-left: 10rem;
+        font-weight: 300;
+        left: -4rem;
+        
+        
+        
+        
+    }
+    .text_wrapper{
+        gap:10rem;
+        display: flex;
+        position: relative;
+        margin-left: 450px;
+        top:6.3rem;
+        right: 24.8rem;
+        
+       
+    
+    }
+    .text_wrapper h1{
+         font-size: 16px;
+         color: black;
+         font-weight: 700;
+    }
+    .image_wrapper{
+     display: inline-flex;
+     gap: 10rem;
+     position: relative;
+     right: 6rem; 
+   }
+   .paragraph_wrapper{
+    gap:3rem;
+    display: flex;
+    position: relative;
+   margin-left: 7rem;
+   left: 0.5rem;
+}
+.paragraph_wrapper p{
+    font-size: 15px;
+}
+.second_section{
+    position: relative;
+    display: inline-block;
+    background-color: #c9184a;
+    height: 190vh;
+      
+}
+.COL_1{
+    width: 50%;
+    gap: 30px;
+    display: inline;
+    position: relative;
+    bottom: 4rem;
+}
+.COL_1 h1{
+    font-size: 35px;
+    left:1%;
+    position: relative;
+    bottom: 10rem;
+    color: #fff;
+}
+.COL_1 h2{
+    font-size: 24px;
+    margin-right: 9rem;
+    position: relative;
+    top:8.3rem;
+    color: black;
+    font-weight: 400;
+}
+.COL_1 .heading-2{
+    position: relative;
+    right: -10rem;
+   
+}
+.COL_1  p{
+    font-size: 14px;
+    position: relative;
+    left: 66px;
+    line-height: 20px;
+   font-weight: 100;
+     line-break: strict;
+}
+.image_container{
+    position: relative;
+    left: -2.2rem;
+    top: 15rem;
+}
+.footer{
+    position: relative;
+    top:6rem;
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+    
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import background from "../../public/images/freelancer.jpg";
+import background from "../../public/images/group.jpg";
 import styles from "../../styles/FreelancerImage.module.css";
 
 function FreelancerImage() {

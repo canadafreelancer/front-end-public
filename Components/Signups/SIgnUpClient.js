@@ -13,8 +13,19 @@ function SignUpClient() {
         <section className={styles["section_container"]}>
         <nav className={styles["nav_container"]}>
         <Image src={freelanceLogo} width={130} height={60} />
-        <Link href="/SignUpClientPage" className={styles["job_link"]} >Looking for a job?</Link>
-        <Link href="/SignUpClientPage" className={styles["signup_link"]}>Sign up as a freelancer</Link>     
+        <ul className={styles["menu_list--option"]}>
+        <li>
+          <Link href="/HowItWorksPage">
+          <a className={styles["job_links"]}>How it works</a> 
+          </Link>
+          </li>  
+          <li>
+         <Link href="/freelancers">
+          <a className={styles["job_links"]}>Find Talents</a>
+          </Link>
+         </li>      
+        </ul>  
+                
         </nav>
         <div className={styles["background-image__container"]}>
         <ClientImage />  
