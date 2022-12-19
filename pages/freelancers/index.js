@@ -1,9 +1,12 @@
 import FreelancersListing from "../../Components/FreelancersListing/FreelancersListing";
+import Layout from "../../Components/LayoutWrapper/Layout";
 
 function freelancers() {
   return (
     <>
-      <FreelancersListing/>
+      <Layout>
+        <FreelancersListing />
+      </Layout>
     </>
   );
 }
