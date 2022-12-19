@@ -2,18 +2,18 @@
     height: 85vh;
     width:610px;
     position: relative;
-    left: 480px;
-    bottom:43rem; 
-    border-radius: 14px;
+    left: 471px;
+    bottom:80rem; 
+    border-radius: 14px ;
     background-color:none;
-    border:1px solid rgb(202, 193, 193);
+    border:3px solid rgb(201, 194, 194);
 }
 .background-image__container {
     position: relative;
-    height: 10vh;
+    height: 5vh;
    
   }
-.nav_container {
+  .nav_container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,14 +22,32 @@
     padding-top: 1.5rem;
     padding-bottom: 1rem;
 }
+.menu_list--option{
+    display: flex;
+    gap: 30rem;
+    list-style: none;
+   
+  }
+  .menu_list--option > li {
+    font-size: 1.1rem;
+  }
+  .menu_list--option > li:hover,
+  .menu_list--option > li:active {
+    color: #e83151;
+    cursor: pointer;
+    border-bottom: 5px solid #e83151;
+    transition: all 0.3s ease-in-out;
+  }
 .signup_container h1{
     position: relative;
-    font-size: 38px;
+    font-size: 50px;
     font-weight:bold;
-    color: #e83151;
+    color: #fff;
     text-align: center;
     top:30px;
-
+}
+.job_links{
+    color: black;
 }
 .google_button{
     display: block;
@@ -195,6 +213,10 @@
     font-size: 12px;
 
 }
+.signup_button:hover{
+    background-color: #e83151;
+    transition: 0.5s;
+}
 .footer{
     background-color: #e83151;
     height:22vh;
@@ -208,7 +230,4 @@
     position: relative;
     top:30px;
      margin-left: 60px;
-}
-.job_link .nav_container{
-    font-size: 80px;
 }
