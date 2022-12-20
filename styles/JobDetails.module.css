@@ -163,3 +163,34 @@
 .aside_content {
   font-weight: 600;
 }
+/* Responsiveness */
+@media only screen and (max-width: 600px) {
+  .jobDetails__container {
+    padding: 2rem;
+  }
+  .jobDetails__content {
+    flex-direction: column;
+  }
+  .jobDetails__highlights {
+    gap: 1rem;
+  }
+  .jobDetails_aside {
+    width: 100%;
+    margin-left: 0rem;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .jobDetails__container {
+    padding: 2rem;
+  }
+  .jobDetails__content {
+    flex-direction: column;
+  }
+  .jobDetails__highlights {
+    gap: 1rem;
+  }
+  .jobDetails_aside {
+    width: 100%;
+    margin-left: 0rem;
+  }
+}

@@ -35,9 +35,9 @@
   font-size: 1.2rem;
   color: #fff;
   cursor: pointer;
-  transition: .1s;
+  transition: 0.1s;
 }
-.filter_btn--container > button:hover{
+.filter_btn--container > button:hover {
   background-color: antiquewhite;
   color: #e83151;
 }
@@ -82,21 +82,17 @@
 .price-slider input[type="range"]::-webkit-slider-thumb:hover {
   background: #e83151;
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .filter-container{
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .filter-container {
     padding-top: 0;
   }
-  .filter-container > form{
+  .filter-container > form {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .filter-container > form > section{
-    width: 30%;
+  .filter-container > form > section {
+    width: 80%;
   }
-}
-@media only screen and (max-width: 479px) {
-  
 }
