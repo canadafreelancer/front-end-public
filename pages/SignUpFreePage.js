@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import SignUpfreelancer from "../components/SignUps/SignUpfreelancer";
+import SignUpfreelancer from "../Components/SignUps/SignUpfreelancer";
 
 
 

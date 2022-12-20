@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Login from "../components/Login/Login";
+import Login from "../Components/Login/Login";
 
 
 

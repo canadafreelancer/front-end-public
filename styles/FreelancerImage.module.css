@@ -1,8 +1,8 @@
 .background_img {
     position: relative;
     width: 100%;
-    filter: blur(2px);
-  -webkit-filter: blur(4px)
+    filter: blur(4px);
+  -webkit-filter: blur(2.5px)
   }
   @media only screen and (max-width: 600px){
     .background_img{

@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import SignUp from "../components/SignUp/SignUp";
+import SignUp from "../Components/SignUp/SignUp";
 
 
 

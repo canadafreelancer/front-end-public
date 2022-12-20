@@ -1,5 +1,6 @@
 .section_container{
     height: 8cm;
+   
 }
 
 .fieldset_container{
@@ -10,36 +11,49 @@
     bottom:70rem;
     border-radius: 14px;
     background-color:none;
-     border:4px solid rgb(202, 193, 193);
+     border:3.2px solid rgb(153, 18, 18);
 }
 .nav_container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 7%;
-    margin-right: 7%;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
-    background-color: #fff
+   display: flex;
+   height: 15vh;
+   background-color: white;
+   position: relative;
+   gap: 38rem;  
+}
+.image_container{
+    position: relative;
+    left: 8rem;
+    top: 2.6rem;
+}
+.image_field{
+    position: absolute;
+    top: 13.4rem;
+    left: 7rem;
+    
+}
+.image_field_apple{
+    position: absolute;
+    top: 15.9rem;
+    left: 7rem;
+    
 }
 .menu_list--option{
     display: flex;
     gap: 30rem;
     list-style: none;
-   
+    position: relative;
   }
   .menu_list--option > li {
     font-size: 1.1rem;
   }
-  .menu_list--option > li:hover,
-  .menu_list--option > li:active {
-    color: #e83151;
-    cursor: pointer;
-    border-bottom: 5px solid #e83151;
-    transition: all 0.3s ease-in-out;
+  .menu_list--option > li :hover {
+      color: #e83151;
   }
   .job_links{
     color: black;
+    font-size: 17px;
+    position: relative;
+    top: 50px;
 }
 .background-image__container {
     position: relative;
@@ -70,9 +84,10 @@
     border: none;
     color:#fff;
     cursor:pointer;
-    font-size: 12px;
+    font-size: 11px;
 
 }
+
 .apple_button{
     display: block;
     text-align: center;
@@ -101,10 +116,10 @@
 .firstname_input{
     width: 35%;
     height: 5vh;
-    border-radius: 4px;
+    border-radius: 40px;
     text-align: left ;
     border: 2px solid rgb(189, 186, 186);
-    color: black;
+    color: #333;
     padding: 10px;
     font-size: 15px;
     position: relative;
@@ -113,11 +128,12 @@
     font-weight: bold;
     box-shadow: 0px 2px 2px rgb(189, 186, 186);
     outline: none;
+    accent-color: black;
 }
 .lastname_input{
     width: 35%;
     height: 5vh;
-    border-radius: 4px;
+    border-radius: 40px;
     text-align: left ;
     border: 2px solid rgb(189, 186, 186);
     color: black;
@@ -133,7 +149,7 @@
 .email_input{
     width: 73%;
     height: 5vh;
-    border-radius: 4px;
+    border-radius: 40px;
     text-align: left ;
     border: 2px solid rgb(189, 186, 186);
     color: black;
@@ -150,7 +166,7 @@
 .password_input{
     width: 73%;
     height: 5vh;
-    border-radius: 4px;
+    border-radius: 40px;
     text-align: left ;
     border: 2px solid rgb(189, 186, 186);
     color: black;
@@ -181,6 +197,7 @@
     border: 0;
     width: 16px;
     height: 10em;
+    transition: 0.5s;
     
 }
 .fieldset_container p{

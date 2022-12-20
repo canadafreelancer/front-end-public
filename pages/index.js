@@ -5,9 +5,9 @@ import Services from "../Components/Services/Services";
 import TrendingServices from "../Components/TrendingServices/TrendingServices";
 import About from "../Components/About/About";
 import Nav from "../components/Nav/Nav";
-import AppDownload from "../components/AppDownload/AppDownload";
-import Footer from "../components/Footer/Footer";
-import Hero from "../components/Herosec/Hero";
+import AppDownload from "../Components/AppDownload/AppDownload";
+import Footer from "../Components/Footer/Footer";
+import Hero from "../Components/Herosec/Hero";
 import Leads from "../Components/Leads/Leads";
 import NavBar from "../Components/Nav/NavBar";
 
