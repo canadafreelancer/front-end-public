@@ -9,8 +9,8 @@
     position: relative;
     left: 480px;
     bottom:70rem;
-    border-radius: 14px;
-    background-color:none;
+    border-radius: 40px;
+    background-color:#fff;
      border:3.2px solid rgb(153, 18, 18);
 }
 .nav_container {
@@ -129,6 +129,7 @@
     box-shadow: 0px 2px 2px rgb(189, 186, 186);
     outline: none;
     accent-color: black;
+    
 }
 .lastname_input{
     width: 35%;
@@ -145,6 +146,7 @@
     box-shadow: 0px 2px 2px rgb(189, 186, 186);
     font-weight: bold;
     outline: none;
+    
 }
 .email_input{
     width: 73%;
@@ -161,6 +163,7 @@
     font-weight: bold;
     box-shadow: 0px 2px 2px rgb(189, 186, 186);
     outline: none;
+   
 
 }
 .password_input{
@@ -178,6 +181,7 @@
     box-shadow: 0px 2px 2px rgb(189, 186, 186);
     font-weight: bold;
     outline: none;
+  
 }
 .check1{
     position: relative;

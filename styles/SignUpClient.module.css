@@ -5,7 +5,7 @@
     left: 471px;
     bottom:80rem; 
     border-radius: 14px ;
-    background-color:none;
+    background-color:rgb(35, 41, 41);
     border:3px solid rgb(35, 41, 41);
 }
 .background-image__container {
@@ -106,7 +106,7 @@
 .firstname_input{
     width: 35%;
     height: 5vh;
-    border-radius: 4px;
+    border-radius: 40px;
     text-align: left ;
     border: 2px solid rgb(254, 254, 254);
     color: black; 
@@ -122,7 +122,7 @@
 .lastname_input{
     width: 35%;
     height: 5vh;
-    border-radius: 4px;
+    border-radius: 40px;
     text-align: left ;
     border: 2px solid rgb(254, 254, 254);
     color: black;
@@ -138,7 +138,7 @@
 .email_input{
     width: 73%;
     height: 5vh;
-    border-radius: 4px;
+    border-radius: 40px;
     text-align: left ;
     border: 2px solid rgb(189, 186, 186);
     color: black;
@@ -154,7 +154,7 @@
 .password_input{
     width: 73%;
     height: 5vh;
-    border-radius: 4px;
+    border-radius: 40px;
     text-align: left ;
     border: 2px solid rgb(189, 186, 186);
     color: black;
@@ -194,7 +194,7 @@
     font-size: 11px;
     left: 100px;
     font-weight: 600;
-    color:#333;
+    color:#fff;
 }
 .fieldset_container span{
     position: relative;
@@ -204,7 +204,7 @@
     font-weight: bold;
     margin-right:90px;
     display: block;
-    color:#333;
+    color:#fff;
 }
 .signup_button{
     display: block;

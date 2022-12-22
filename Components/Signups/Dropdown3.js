@@ -61,6 +61,7 @@ const Dropdown3 = ({ label, value, options, onChange, name }) => {
     box-shadow: 0px 2px 2px rgb(189, 186, 186);
     font-weight:bold;
     outline:none;
+    background-color: rgb(202, 228, 228);
    }
       
       `}</style>

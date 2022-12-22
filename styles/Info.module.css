@@ -95,13 +95,13 @@
     gap:20rem;
     display: flex;
     position: relative;
-    margin-left: 450px;
+    margin-left:28rem;
     top:6.3rem;
    
 
 }
 .text_wrapper h1{
-    font-size: 17px;
+    font-size: 15.8px;
     text-align: center;
     color: black;
 }
@@ -192,7 +192,8 @@
      background-color: #fff;
      color: black;
      border: none;
-     transition: 1s;
+     transition: 0.8s;
+     transform:translateY(20px);
 }
 .image_container{
     position: relative;
@@ -300,21 +301,19 @@
     
 }
 .sec_1 h1{
-    font-size: 70px;
+    font-size: 50px;
     position: relative; 
     left: 6rem;
     color: rgb(235, 230, 230);
-      
+    white-space: pre;
+    color: rgb(235, 230, 230);  
 }
 .sec_1 p{
-    font-size: 22px;
+    font-size: 18px;
     position: relative;
-    display: initial;
-    white-space: pre;
-    color: rgb(235, 230, 230);
     
-    
-    
+
+   
 }
 .wrapper{
     position: relative;
