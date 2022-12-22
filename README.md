@@ -18,6 +18,7 @@ After the developer team will check your update, then we are going to add your c
 - Jun Park
 - Benjamin Fadipe
 - Sahil Mahey
+- Ademola Olalere
 
 This is a Next.js project bootstrapped with create-next-app.
 

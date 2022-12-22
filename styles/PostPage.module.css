@@ -1,0 +1,51 @@
+.container {
+    padding: 15px;
+    padding-left: 20px;
+    display: flex;
+    align-content: center;
+    gap: 50px;
+    background-color: #ffffff;
+}
+
+.container-link {
+    font-size: 14px;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+
+}
+
+.container-link li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    /* position: relative;
+    top: 30px; */
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.container-link li:hover {
+    color: red;
+}
+
+.my-account {
+    margin-right: 15px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.p-project {
+    background-color: #c9184a;
+    font-size: 16px;
+    color: #ffffff;
+    width: 5cm;
+    height: 1cm;
+    border-radius: 50px;
+    position: relative;
+    top: 22px;
+    border-color: #c9184a;
+    font-weight: bold;
+}
