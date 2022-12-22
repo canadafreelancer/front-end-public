@@ -14,7 +14,7 @@
     left: 559px;
    top: 29px;
     border-radius: 15px;
-    background-color: #fff;
+    background-color:transparent;
     border:1px solid rgb(202, 193, 193);
 }
 .login_container h1{
@@ -124,7 +124,7 @@
     font-size: 12px;
     position: relative;
     top: 150px;
-    color: rgb(202, 193, 193);
+    color: rgb(202, 193, 193); 
     font-weight: bold;
 }
 .signup_button{

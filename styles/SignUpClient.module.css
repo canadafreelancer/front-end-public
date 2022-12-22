@@ -6,7 +6,7 @@
     bottom:80rem; 
     border-radius: 14px ;
     background-color:none;
-    border:3px solid rgb(201, 194, 194);
+    border:3px solid rgb(35, 41, 41);
 }
 .background-image__container {
     position: relative;
@@ -22,11 +22,22 @@
     padding-top: 1.5rem;
     padding-bottom: 1rem;
 }
+.image_field{
+    position: absolute;
+    top: 13.6rem;
+    left: 7rem;
+    
+}
+.image_field_apple{
+    position: absolute;
+    top: 16.1rem;
+    left: 7rem;
+    
+}
 .menu_list--option{
     display: flex;
     gap: 30rem;
     list-style: none;
-   
   }
   .menu_list--option > li {
     font-size: 1.1rem;
@@ -97,8 +108,8 @@
     height: 5vh;
     border-radius: 4px;
     text-align: left ;
-    border: 2px solid rgb(189, 186, 186);
-    color: black;
+    border: 2px solid rgb(254, 254, 254);
+    color: black; 
     padding: 10px;
     font-size: 15px;
     position: relative;
@@ -113,7 +124,7 @@
     height: 5vh;
     border-radius: 4px;
     text-align: left ;
-    border: 2px solid rgb(189, 186, 186);
+    border: 2px solid rgb(254, 254, 254);
     color: black;
     padding: 10px;
     font-size: 15px;

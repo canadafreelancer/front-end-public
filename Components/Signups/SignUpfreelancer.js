@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import styles from "../../styles/SignUpfreelancer.module.css";
 import freelanceLogo from "../../public/images/canadaFreelanceLogo.png";
+import googleicon from "../../public/images/googleicon.png";
+import appleicon from "../../public/images/appleicon.png";
 import Link from "next/link";
 import Image from "next/image";
 import Dropdown3 from "../../Components/Signups/Dropdown3";
@@ -14,7 +16,9 @@ function SignUpfreelancer() {
     return (
         <section className={styles["section_container"]}>
         <nav className={styles["nav_container"]}>
-        <Image src={freelanceLogo} width={130} height={60} /> 
+        <div className={styles["image_container"]}>
+        <Image src={freelanceLogo} width={120} height={28}/>
+         </div>
         <ul className={styles["menu_list--option"]}>
         <li>
           <Link href="/HowItWorksPage">
@@ -35,7 +39,9 @@ function SignUpfreelancer() {
              <h1>Sign up as a freelancer </h1>       
              <form className={styles["form_container"]}>
              <button className={styles["google_button"]}>Continue with Google</button>
+             <div className={styles["image_field"]}><Image src={googleicon} width={14} height={15}/></div>
              <button className={styles["apple_button"]}>Continue with Apple</button> 
+             <div className={styles["image_field_apple"]}><Image src={appleicon} width={15} height={15}/></div>
              <h1>Or</h1> 
              <input type="text" placeholder="First name" name=" First name" className={styles["firstname_input"]} required />   
              <input type="text" placeholder="Last name" name=" Last name" className={styles["lastname_input"]} required/>            

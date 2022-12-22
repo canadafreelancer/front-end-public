@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+
 import styles from "../../styles/SignUpClient.module.css";
 import Link from "next/link";
 import freelanceLogo from "../../public/images/canadaFreelanceLogo.png";
 import Image from "next/image";
+import googleic from "../../public/images/googleicon.png";
+import appleic from "../../public/images/appleicon.png";
 import Dropdown3 from "../../Components/Signups/Dropdown3";
 import ClientImage from "../HeaderImage/ClientImage";
 
@@ -20,12 +22,10 @@ function SignUpClient() {
           </Link>
           </li>  
           <li>
-         <Link href="/freelancers">
-          <a className={styles["job_links"]}>Find Talents</a>
-          </Link>
+         <Link href="/freelancers">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+          <a className={styles["job_links"]}>Find Talents</a></Link>
          </li>      
         </ul>  
-                
         </nav>
         <div className={styles["background-image__container"]}>
         <ClientImage />  
@@ -34,7 +34,9 @@ function SignUpClient() {
              <h1>Sign up as a client </h1>       
              <form className={styles["form_container"]}>
              <button className={styles["google_button"]}>Continue with Google</button>
+             <div className={styles["image_field"]}><Image src={googleic} width={14} height={15}/></div>
              <button className={styles["apple_button"]}>Continue with Apple</button> 
+             <div className={styles["image_field_apple"]}><Image src={appleic} width={14} height={15}/></div>
              <h1>Or</h1> 
              <input type="text" placeholder="First name" name=" First name" className={styles["firstname_input"]} required />   
              <input type="text" placeholder="Last name" name=" Last name" className={styles["lastname_input"]} required/>            

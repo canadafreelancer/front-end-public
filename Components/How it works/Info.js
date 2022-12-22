@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "../../styles/Info.module.css";
 import Image from "next/image";
-import Homes from "../../utils/Homes";
 import Footer from "../../components/Footer/Footer";
 import worker from "../../public/images/man.png";
 import client from "../../public/images/client.png";
