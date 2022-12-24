@@ -40,17 +40,16 @@ function NavBar() {
           isMenuClicked ? styles["nav_menu-mobile"] : styles["navBar--menus"]
         } `}>
         <ul className={styles["navBar--menus_items"]}>
-          
           <li>
-          <Link href="/HowItWorksPage">
-          <a className={styles["navBar--menu_links"]}> How it works</a> 
-          </Link>
+            <Link href="/info/howitworks">
+              <a className={styles["navBar--menu_links"]}> How it works</a>
+            </Link>
           </li>
-            
+
           <li>
             <Link href="/freelancers">
-          <a className={styles["navBar--menu_links"]}>Find Talents</a>
-          </Link>
+              <a className={styles["navBar--menu_links"]}>Find Talents</a>
+            </Link>
           </li>
           <li>
             <Link href="/jobs">

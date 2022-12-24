@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styles from "../../styles/InfoDetails.module.css";
 import HeaderBanner from "../HeaderBanner/HeaderBanner";
-import FreelancerContent from "./FreelancerContent";
-import EmployerContent from "./EmployerContent";
+import Hire from "./Hire";
+import Earn from "./Earn";
 
 function InfoDetls() {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -19,7 +19,7 @@ function InfoDetls() {
   return (
     <>
       <HeaderBanner />
-      <div className={styles["tabs__container"]}>
+      <div>
         <ul className={styles["nav__container"]}>
           <li
             className={activeTab === "tab1" ? styles.active : ""}
@@ -34,7 +34,7 @@ function InfoDetls() {
         </ul>
         <div className={styles.outlet}>
           {/* content goes here */}
-          {activeTab === "tab1" ? <FreelancerContent /> : <EmployerContent />}
+          {activeTab === "tab1" ? <Hire /> : <Earn />}
         </div>
       </div>
     </>
