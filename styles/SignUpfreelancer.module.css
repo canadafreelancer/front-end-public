@@ -1,6 +1,6 @@
 .section_container{
-    height: 8cm;
-   
+    height: 20cm;
+    
 }
 
 .fieldset_container{
@@ -8,15 +8,13 @@
     width:610px;
     position: relative;
     left: 480px;
-    bottom:70rem;
     border-radius: 40px;
-    background-color:#fff;
-     border:3.2px solid rgb(153, 18, 18);
+    background-color:transparent;
+     border:none;
 }
 .nav_container {
    display: flex;
    height: 15vh;
-   background-color: white;
    position: relative;
    gap: 38rem;  
 }
@@ -27,13 +25,13 @@
 }
 .image_field{
     position: absolute;
-    top: 13.4rem;
+    top: 13.7rem;
     left: 7rem;
     
 }
 .image_field_apple{
     position: absolute;
-    top: 15.9rem;
+    top: 16.1rem;
     left: 7rem;
     
 }
@@ -63,10 +61,10 @@
 .signup_container h1{
     position: relative;
     font-size: 47px;
-    font-weight:bold;
+    font-weight:100;
     color:rgb(228, 43, 43);
     text-align: center;
-    top:30px;
+    top:10px;
 
 }
 .google_button{
@@ -116,71 +114,68 @@
 .firstname_input{
     width: 35%;
     height: 5vh;
-    border-radius: 40px;
+    border-radius: 4px;
     text-align: left ;
-    border: 2px solid rgb(189, 186, 186);
+    border: none;
     color: #333;
     padding: 10px;
     font-size: 15px;
     position: relative;
     top:90px;
     left:80px;
-    font-weight: bold;
-    box-shadow: 0px 2px 2px rgb(189, 186, 186);
-    outline: none;
-    accent-color: black;
+    font-weight: 100;
+
+    
     
 }
 .lastname_input{
     width: 35%;
     height: 5vh;
-    border-radius: 40px;
+    border-radius: 4px;
     text-align: left ;
-    border: 2px solid rgb(189, 186, 186);
+    border: none;
     color: black;
     padding: 10px;
     font-size: 15px;
     position: relative;
     top:90px;
     left:98px;
-    box-shadow: 0px 2px 2px rgb(189, 186, 186);
-    font-weight: bold;
-    outline: none;
+    font-weight: 100;
+    
     
 }
 .email_input{
     width: 73%;
     height: 5vh;
-    border-radius: 40px;
+    border-radius: 4px;
     text-align: left ;
-    border: 2px solid rgb(189, 186, 186);
+    border: none;
     color: black;
     padding: 10px;
     font-size: 15px;
     position:relative;
     top:103px;
     left:79px;
-    font-weight: bold;
-    box-shadow: 0px 2px 2px rgb(189, 186, 186);
-    outline: none;
+    font-weight: 100;
+   
+  
    
 
 }
 .password_input{
     width: 73%;
     height: 5vh;
-    border-radius: 40px;
+    border-radius: 4px;
     text-align: left ;
-    border: 2px solid rgb(189, 186, 186);
+    border: none;
     color: black;
     padding: 10px;
     font-size: 15px;
     position:relative;
     top:116px;
     left:79px;
-    box-shadow: 0px 2px 2px rgb(189, 186, 186);
-    font-weight: bold;
-    outline: none;
+    font-weight: 100;
+     
   
 }
 .check1{
@@ -225,11 +220,11 @@
     text-align: center;
     position: relative;
     bottom: 60px;
-    left:150px;
-    width: 50%;
-    height: 4vh;
-    border-radius: 20px;
-    background-color:#333;
+    left:5rem;
+    width: 72.6%;
+    height: 5vh;
+    border-radius: 2px;
+    background-color:#e83151;
     padding: 5px;
     font-weight: bold;
     border: none;
@@ -239,7 +234,7 @@
 
 }
 .signup_button:hover{
-    background-color: #e83151;
+    background-color: #333;
     transition: 0.5s;
 }
 .footer{

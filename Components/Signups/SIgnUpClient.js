@@ -14,7 +14,9 @@ function SignUpClient() {
     return (
         <section className={styles["section_container"]}>
         <nav className={styles["nav_container"]}>
-        <Image src={freelanceLogo} width={130} height={60} />
+        <div className={styles["image_container"]}>
+        <Image src={freelanceLogo} width={120} height={28}/>
+         </div>
         <ul className={styles["menu_list--option"]}>
         <li>
           <Link href="/HowItWorksPage">
@@ -22,15 +24,14 @@ function SignUpClient() {
           </Link>
           </li>  
           <li>
-         <Link href="/freelancers">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-          <a className={styles["job_links"]}>Find Talents</a></Link>
+         <Link href="/freelancers">
+          <a className={styles["job_links"]}>Find Talents</a>
+          </Link>
          </li>      
         </ul>  
-        </nav>
-        <div className={styles["background-image__container"]}>
-        <ClientImage />  
+        </nav> 
             <fieldset className={styles["fieldset_container"]}>
-            <div className={styles["signup_container"]}>
+             <div className={styles["signup_container"]}>
              <h1>Sign up as a client </h1>       
              <form className={styles["form_container"]}>
              <button className={styles["google_button"]}>Continue with Google</button>
@@ -55,7 +56,6 @@ function SignUpClient() {
              </form>      
             </div>
             </fieldset>
-            </div> 
         </section>
     );  
 }
