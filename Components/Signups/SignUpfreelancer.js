@@ -49,12 +49,8 @@ function SignUpfreelancer() {
              <div>          
              <input type="checkbox" className={styles["check1"]} value="coding" required /> 
              </div>   
-             <p>send me tips on how to find work that fits my talent</p>   
-             <div>          
-             <input type="checkbox" name="freelancer" value="agree" className={styles["check-2"]} />
-             </div> 
-             <span>Yes i understand and agree to the CanadaFreelancers terms of service,<br/>also the User Agreement and Privacy policy.</span>  
-             <button className={styles["signup_button"]}>Create Account</button>          
+             <p>Yes i understand and agree to the CanadaFreelancers terms of service,<br/>also the User Agreement and Privacy policy.</p>   
+             <button className={styles["signup_button"]}>Create Account</button>
              </form>      
             </div>
          </fieldset>    

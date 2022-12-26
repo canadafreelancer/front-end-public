@@ -62,6 +62,21 @@ const Dropdown3 = ({ label, value, options, onChange, name }) => {
     outline:none;
     background-color: none;
    }
+   
+/* Media Queries */
+@media only screen and (max-width: 600px){
+     .dropdown{
+      position: relative;
+        width: 98%;
+        height:16vh;
+        border: 2px solid red;
+        border-radius: 5px;
+        left:-15rem;
+        padding: 20px;
+        font-size: 60px;
+        top:30rem;
+     }
+}
       
       `}</style>
     </label>

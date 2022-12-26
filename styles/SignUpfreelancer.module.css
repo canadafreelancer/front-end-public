@@ -1,5 +1,6 @@
 .section_container{
-    height: 20cm;
+    height: 100vh;
+    background-color: #fff;
     
 }
 
@@ -83,6 +84,7 @@
     color:#fff;
     cursor:pointer;
     font-size: 11px;
+    font-family: Outfit;
 
 }
 
@@ -103,6 +105,7 @@
     border: 1px solid #333;
     cursor: pointer;
     font-size: 12px;
+    font-family: Outfit;
 
 }
 .form_container h1{
@@ -219,7 +222,7 @@
     display: block;
     text-align: center;
     position: relative;
-    bottom: 60px;
+    top:5rem;
     left:5rem;
     width: 72.6%;
     height: 5vh;
@@ -231,6 +234,7 @@
     color: #fff;
     cursor:pointer;
     font-size: 12px;
+    font-family: Outfit;
 
 }
 .signup_button:hover{
@@ -250,4 +254,119 @@
     position: relative;
     top:30px;
      margin-left: 60px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px){
+    .section_container{
+      width: 400%;
+      height: 400vh;
+    }
+    .fieldset_container{
+      position: relative;
+      top:27rem;
+      left:34rem;
+    }
+    .signup_container h1{
+      position: relative;
+      right: 15rem;
+      font-size: 6rem;
+      font-weight: bold;
+      white-space: nowrap;
+      top:-10rem;
+    }
+    .google_button{
+      position: relative;
+      top:-4rem;
+      width:70%;
+      height: 15vh;
+      border-radius: 60px;
+      left: -2cm;
+      font-size: 48px;
+      font-weight: 500;
+    }
+    .form_container h1{
+      font-size: 40px;
+      position: relative;
+      top: 5rem;
+    }
+    .apple_button{
+      position: relative;
+      top:5px;
+      width:70%;
+      height: 15vh;
+      border-radius: 60px;
+      left: -2cm;
+      font-size: 48px;
+      font-weight: 500;
+    }
+   .firstname_input{
+      position: relative;
+      width: 98%;
+      height:16vh;
+      border: 2px solid red;
+      border-radius: 5px;
+      left:-15rem;
+      padding: 20px;
+      font-size: 60px;
+      top:14rem;
+
+   }  
+ .lastname_input{
+  position: relative;
+  width: 98%;
+  height:16vh;
+  border: 2px solid red;
+  border-radius: 5px;
+  left:-15rem;
+  padding: 20px;
+  font-size: 60px;
+  top:18rem;
+ }
+ .email_input{
+  position: relative;
+  width: 98%;
+  height:16vh;
+  border: 2px solid red;
+  border-radius: 5px;
+  left:-15rem;
+  padding: 20px;
+  font-size: 60px;
+  top:21.9rem;
+ }
+ .password_input{
+  position: relative;
+  width: 98%;
+  height:16vh;
+  border: 2px solid red;
+  border-radius: 5px;
+  left:-15rem;
+  padding: 20px;
+  font-size: 60px;
+  top:26rem;
+ }
+.signup_button{
+  position: relative;
+  width: 98%;
+  height:16vh;
+  border: 2px solid red;
+  border-radius: 5px;
+  left:-15rem;
+  padding: 20px;
+  font-size: 60px;
+  top:45rem;
+}
+.check1{
+  position: relative;
+  width:10%;
+  top:40rem;
+  left:-14rem;
+}
+.fieldset_container p{
+  position: relative;
+  font-size: 45px;
+  top:30rem;
+  left:-4rem;
+ 
+}
 }

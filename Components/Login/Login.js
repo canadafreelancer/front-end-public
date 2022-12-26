@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const Login = () => {
   return (
-    <div>
+    <div className={styles["container"]} >
     <nav className={styles["nav_container"]}>
     <div className={styles["Logo_container"]}>
     <Image src={freelanceLogo} width={200} height={60}/>
@@ -23,9 +23,9 @@ const Login = () => {
             <p>Enter your email address and password.</p>
           <form className={styles["form_container"]}>
             <input type="email" placeholder="Username or Email" name="email" className={styles["email_input"]} required></input>
-            <div className={styles["icon_container"]}><Image src={Email}  width={15} height={15}/></div>
+            <div className={styles["icon_container"]}><Image src={Email}  width={20} height={20} className={styles["email_icon"]} /></div>
             <input type="password" placeholder="Password" name="password" className={styles["password_input"]} required />
-            <div className={styles["lock_container"]}><Image src={Lock}  width={15} height={15}/></div>
+            <div className={styles["lock_container"]}><Image src={Lock}  width={20} height={20}  className={styles["lock_icon"]}  /></div>
              <Link href="">
               <a className={styles["link_container"]}>Forgot your password?</a>
              </Link>
