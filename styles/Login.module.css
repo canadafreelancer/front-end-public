@@ -1,3 +1,8 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
 .nav_container {
     display: flex;
     align-items: center;
@@ -88,10 +93,12 @@
     border-radius: 4px;
     text-align: center;
     padding: 10px;
-    background-color: #e83151;
+    background-color:#e83151;
     border: none;
+    color: #fff;
     font-weight: bolder;
     font-size: 15px;
+    font-family: Outfit;
 }
 .log-in_button:hover{
     background-color: black;
@@ -114,3 +121,86 @@
     left: 10.5rem;
 
 }
+
+/* Media Queries */
+@media only screen and (max-width: 600px){
+         .container{
+            width: 400%;
+            height: 400vh;
+         }
+      .nav_container{
+          display: flex;
+       }
+       .Logo_container{
+          position:relative;
+          left:36rem;
+       }
+       .fieldset_container{
+        position: relative;
+        left: 20rem;
+        top:45rem;
+       }
+       .login_container h1{
+          font-size: 3cm;
+          position: relative;
+          font-weight: bolder;
+          left: -8rem;
+        
+       }
+       .login_container p{
+        font-size: 80px;
+        position: relative;
+        left: -9rem;
+       }
+       .email_input{
+        position:relative;
+        width:110%;
+        height:18vh;
+        right: 10rem;
+        border-radius: 8px;
+        border: 2px solid black;
+        padding: 20px;
+        font-size: 60px;
+       }
+       .email_input::placeholder{
+        position: relative;
+       
+      }
+      .password_input{
+        position:relative;
+        width:110%;
+        height:18vh;
+        right: 10rem;
+        border-radius: 8px;
+        border: 2px solid black;
+        padding: 20px;
+        font-size: 60px;
+        top:8rem;
+      }
+      .log-in_button{
+        width:110%;
+        height:18vh;
+        right: 10rem;
+        top:30rem;
+        font-size: 60px;
+        
+      }
+      .link_container{
+        position: relative;
+        font-size: 60px;
+        right:8rem;
+        top:20rem;
+        color: black;
+
+      }
+      .icon_container{
+         position:relative;
+         left:24rem;
+         top: -1.5rem;
+      }
+      .lock_container{
+        position: relative;
+        left: 24rem;
+      }
+      
+    }  
