@@ -1,10 +1,9 @@
 .container {
-    padding: 15px;
-    padding-left: 20px;
     display: flex;
     align-content: center;
-    gap: 50px;
+    gap: 30px;
     background-color: #ffffff;
+    padding: 10px 80px;
 }
 
 .container-link {
@@ -20,11 +19,8 @@
     list-style-type: none;
     display: inline;
     padding: 20px;
-    /* position: relative;
-    top: 30px; */
-    font-size: 20px;
-    cursor: pointer;
-    
+    font-size: 17px;
+    cursor: pointer;    
 }
 
 .container-link li:hover {
@@ -32,14 +28,16 @@
 }
 
 .my-account {
-    margin-right: 15px;
-    padding-top: 30px;
-    font-size: 20px;
+ padding-left: 80px;
 }
 
-.p-project {
+.my-account :hover {
+    color: red;
+}
+.project-btn {
     background-color: #c9184a;
     font-size: 16px;
+    font-weight: bold;
     color: #ffffff;
     width: 5cm;
     height: 1cm;
@@ -47,5 +45,5 @@
     position: relative;
     top: 22px;
     border-color: #c9184a;
-    font-weight: bold;
+    left: 50px;
 }

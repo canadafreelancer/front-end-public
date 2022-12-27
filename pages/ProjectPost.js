@@ -3,6 +3,7 @@ import Bar from "../Components/ProjectPost/Bar";
 import PostPage from "../Components/ProjectPost/Postpage";
 import FormPlate from "../Components/ProjectPost/FormPlate";
 import Footer from "../components/Footer/Footer";
+import DropDown from "../Components/ProjectPost/DropDown";
 
 
 function ProjectPost() {
@@ -12,6 +13,7 @@ function ProjectPost() {
       <Bar />
       <FormPlate />
       <Footer />
+      <DropDown />
     </div>
   );
 }
