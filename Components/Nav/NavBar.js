@@ -67,9 +67,11 @@ function NavBar() {
               <BiUserCircle className={styles["navBar--icon"]} />
               Register
             </li>
-            <button className={styles["navBar--menu_btnPost"]}>
-              Post a project
-            </button>
+            <Link href="/ProjectPost">
+              <button className={styles["navBar--menu_btnPost"]}>
+                Post a project
+              </button>
+            </Link>
           </ul>
         </div>
       </nav>

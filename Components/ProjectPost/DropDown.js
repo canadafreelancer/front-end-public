@@ -11,15 +11,12 @@ export default function DropDown() {
 
   return (
     <Dropdown>
-      <Dropdown.Button>
-        {selectedValue}
-      </Dropdown.Button>
+      <Dropdown.Button>{selectedValue}</Dropdown.Button>
       <Dropdown.Menu
         disallowEmptySelection
         selectionMode="single"
         selectedKeys={selected}
-        onSelectionChange={setSelected}
-      >
+        onSelectionChange={setSelected}>
         <Dropdown.Item key="text">Text</Dropdown.Item>
         <Dropdown.Item key="number">Number</Dropdown.Item>
         <Dropdown.Item key="date">Date</Dropdown.Item>
