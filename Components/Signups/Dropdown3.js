@@ -55,13 +55,28 @@ const Dropdown3 = ({ label, value, options, onChange, name }) => {
     position:relative; 
     top:130px;
     left:80px;
-    border: 2px solid rgb(189, 186, 186);
-    border-radius: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
     accent-color:#e83151;
-    box-shadow: 0px 2px 2px rgb(189, 186, 186);
-    font-weight:bold;
+    font-weight:100;
     outline:none;
+    background-color: none;
    }
+   
+/* Media Queries */
+@media only screen and (max-width: 600px){
+     .dropdown{
+      position: relative;
+        width: 98%;
+        height:16vh;
+        border: 2px solid red;
+        border-radius: 5px;
+        left:-15rem;
+        padding: 20px;
+        font-size: 60px;
+        top:30rem;
+     }
+}
       
       `}</style>
     </label>

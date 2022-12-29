@@ -14,7 +14,9 @@ function SignUpClient() {
     return (
         <section className={styles["section_container"]}>
         <nav className={styles["nav_container"]}>
-        <Image src={freelanceLogo} width={130} height={60} />
+        <div className={styles["image_container"]}>
+        <Image src={freelanceLogo} width={120} height={28}/>
+         </div>
         <ul className={styles["menu_list--option"]}>
         <li>
           <Link href="/HowItWorksPage">
@@ -22,15 +24,14 @@ function SignUpClient() {
           </Link>
           </li>  
           <li>
-         <Link href="/freelancers">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-          <a className={styles["job_links"]}>Find Talents</a></Link>
+         <Link href="/freelancers">
+          <a className={styles["job_links"]}>Find Talents</a>
+          </Link>
          </li>      
         </ul>  
-        </nav>
-        <div className={styles["background-image__container"]}>
-        <ClientImage />  
+        </nav> 
             <fieldset className={styles["fieldset_container"]}>
-            <div className={styles["signup_container"]}>
+             <div className={styles["signup_container"]}>
              <h1>Sign up as a client </h1>       
              <form className={styles["form_container"]}>
              <button className={styles["google_button"]}>Continue with Google</button>
@@ -46,16 +47,11 @@ function SignUpClient() {
              <div>          
              <input type="checkbox" className={styles["check1"]} value="coding" required /> 
              </div>         
-             <p>send me tips on how to find work that fits my talent</p>
-             <div>          
-             <input type="checkbox" name="freelancer" value="agree" className={styles["check-2"]} />
-             </div>               
-             <span>Yes i understand and agree to the CanadaFreelancers terms of service,<br/>also the User Agreement and Privacy policy .</span>  
-             <button className={styles["signup_button"]}>Create Account</button>                     
+             <p>Yes i understand and agree to the CanadaFreelancers terms of service,<br/>also the User Agreement and Privacy policy.</p>   
+             <button className={styles["signup_button"]}>Create Account</button>                  
              </form>      
             </div>
             </fieldset>
-            </div> 
         </section>
     );  
 }

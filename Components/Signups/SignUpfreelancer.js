@@ -32,8 +32,6 @@ function SignUpfreelancer() {
          </li>      
         </ul>      
        </nav> 
-       <div className={styles["background-image__container"]}>
-        <FreelancerImage />  
             <fieldset className={styles["fieldset_container"]}>
             <div className={styles["signup_container"]}>
              <h1>Sign up as a freelancer </h1>       
@@ -42,7 +40,7 @@ function SignUpfreelancer() {
              <div className={styles["image_field"]}><Image src={googleicon} width={14} height={15}/></div>
              <button className={styles["apple_button"]}>Continue with Apple</button> 
              <div className={styles["image_field_apple"]}><Image src={appleicon} width={15} height={15}/></div>
-             <h1>Or</h1> 
+             <h1>0r</h1> 
              <input type="text" placeholder="First name" name=" First name" className={styles["firstname_input"]} required />   
              <input type="text" placeholder="Last name" name=" Last name" className={styles["lastname_input"]} required/>            
              <input type="email" placeholder="Email address" name="email" className={styles["email_input"]} required />
@@ -51,16 +49,11 @@ function SignUpfreelancer() {
              <div>          
              <input type="checkbox" className={styles["check1"]} value="coding" required /> 
              </div>   
-             <p>send me tips on how to find work that fits my talent</p>   
-             <div>          
-             <input type="checkbox" name="freelancer" value="agree" className={styles["check-2"]} />
-             </div> 
-             <span>Yes i understand and agree to the CanadaFreelancers terms of service,<br/>also the User Agreement and Privacy policy.</span>  
-             <button className={styles["signup_button"]}>Create Account</button>          
+             <p>Yes i understand and agree to the CanadaFreelancers terms of service,<br/>also the User Agreement and Privacy policy.</p>   
+             <button className={styles["signup_button"]}>Create Account</button>
              </form>      
             </div>
          </fieldset>    
-         </div>
         </section>
     );  
 }

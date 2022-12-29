@@ -1,3 +1,8 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
 .nav_container {
     display: flex;
     align-items: center;
@@ -6,150 +11,196 @@
     margin-right: 7%;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
+    position: relative;
+   
 }
 .fieldset_container{
     height: 75vh;
     width:480px;
     position: relative;
     left: 559px;
-   top: 29px;
+    top: 0.3rem;
     border-radius: 15px;
     background-color:transparent;
-    border:1px solid rgb(202, 193, 193);
+    border:none;
 }
 .login_container h1{
     position: relative;
     top:30px;
-    font-size: 25px;
-    font-weight:bold;
+    font-size: 40px;
+    font-weight:lighter;
     color: #333; 
     text-align: center;
 
 }
+.login_container p{
+    position: relative;
+    top:5rem;
+    left: 6.4rem;
+    font-weight: 50;
+    
+
+}
 .form_container{
-    font-weight: 500;
+    font-weight: none;
     position:relative;
     text-align: center;
     top:58px;
     
 }
 .email_input{
-    width: 50%;
-    height: 5vh;
+    position: relative;
+    top: 4rem;
+    width: 370px;
+    height: 5.2vh;
     border-radius: 4px;
-    text-align: left ;
-    border: 2px solid rgb(189, 186, 186);
+    text-align: left;
+    padding: 20px;
+   
+   
+}
+.email_input::placeholder{
+     position: relative;
+     
+}
+
+.password_input{
+    position: relative;
+    top: 5rem;
+    width: 370px;
+    height: 5.2vh;
+    border-radius: 4px;
+    text-align: left;
+    padding: 20px;
+    
+   
+}
+.link_container{
+    position: relative;
+    font-size: 14px;
+    top: 5rem;
     color: black;
+ 
+}
+.link_container:hover{
+    color: blue;
+}
+.log-in_button{
+    position: relative;
+    top: 8rem;
+    width: 370px;
+    height: 5.2vh;
+    border-radius: 4px;
+    text-align: center;
     padding: 10px;
+    background-color:#e83151;
+    border: none;
+    color: #fff;
+    font-weight: bolder;
     font-size: 15px;
-    box-shadow: 0px 2px 2px red;
-    outline: none ;
+    font-family: Outfit;
 }
-.login_button{
-    display: block;
-    text-align: center;
+.log-in_button:hover{
+    background-color: black;
+    transition: 0.5s;
+    color: #fff;
+}
+.Logo_container{
     position: relative;
-    top: 24px;
-    left:120px;
-    width: 50%;
-    height: 4vh;
-    border-radius: 20px;
-    background-color:#e83151 ;
-    padding: 5px;
-    font-weight: bold;
-    border: none;
-    color:#fff;
-    cursor: pointer;
-    font-size: 12px;
+    left: 37rem;
+}
+.icon_container{
+    position: relative;
+    top:2rem;
+    left:10.5rem ;
+    
+}
+.lock_container{
+    position: relative;
+    top:3rem;
+    left: 10.5rem;
 
 }
-.form_container h1{
-    font-size: 10px;
-    position: relative;
-    top: 48px;
-    color: rgb(202, 193, 193);
-}
-.google_button{
-    display: block;
-    text-align: center;
-    position: relative;
-    top: 80px;
-    left:120px;
-    width: 50%;
-    height: 4vh;
-    border-radius: 20px;
-    background-color:#333;
-    padding: 5px;
-    font-weight: bold;
-    border: none;
-    color:#fff;
-    cursor:pointer;
-    font-size: 12px;
 
-}
-.apple_button{
-    display: block;
-    text-align: center;
-    position: relative;
-    top: 110px;
-    left:120px;
-    width: 50%;
-    height: 4vh;
-    border-radius: 20px;
-    background-color:#fff;
-    padding: 5px;
-    font-weight: bold;
-    border: none;
-    color:rgb(14, 13, 13);
-    border: 1px solid #333;
-    cursor: pointer;
-    font-size: 12px;
+/* Media Queries */
+@media only screen and (max-width: 600px){
+         .container{
+            width: 400%;
+            height: 400vh;
+         }
+      .nav_container{
+          display: flex;
+       }
+       .Logo_container{
+          position:relative;
+          left:36rem;
+       }
+       .fieldset_container{
+        position: relative;
+        left: 20rem;
+        top:45rem;
+       }
+       .login_container h1{
+          font-size: 3cm;
+          position: relative;
+          font-weight: bolder;
+          left: -8rem;
+        
+       }
+       .login_container p{
+        font-size: 80px;
+        position: relative;
+        left: -9rem;
+       }
+       .email_input{
+        position:relative;
+        width:110%;
+        height:18vh;
+        right: 10rem;
+        border-radius: 8px;
+        border: 2px solid black;
+        padding: 20px;
+        font-size: 60px;
+       }
+       .email_input::placeholder{
+        position: relative;
+       
+      }
+      .password_input{
+        position:relative;
+        width:110%;
+        height:18vh;
+        right: 10rem;
+        border-radius: 8px;
+        border: 2px solid black;
+        padding: 20px;
+        font-size: 60px;
+        top:8rem;
+      }
+      .log-in_button{
+        width:110%;
+        height:18vh;
+        right: 10rem;
+        top:30rem;
+        font-size: 60px;
+        
+      }
+      .link_container{
+        position: relative;
+        font-size: 60px;
+        right:8rem;
+        top:20rem;
+        color: black;
 
-}
-.signup_hr_left{
-    width: 15%;
-    position: relative;
-    top: 159px;
-    left: 98px;
-    border:1px solid rgb(202, 193, 193);
-}
-.signup_hr_right{
-    width: 15%;
-    position: relative;
-    top: 143px;
-    left: 307px;
-    border:1px solid rgb(202, 193, 193);    
-}
-.form_container h2{
-    font-size: 12px;
-    position: relative;
-    top: 150px;
-    color: rgb(202, 193, 193); 
-    font-weight: bold;
-}
-.signup_button{
-    display: block;
-    text-align: center;
-    position: relative;
-    top: 180px;
-    left:170px;
-    width: 30%;
-    height: 4vh;
-    border-radius: 20px;
-    background-color:#fff;
-    padding: 5px;
-    font-weight: bold;
-    border: none;
-    color:rgb(14, 13, 13);
-    border: 1px solid #333;
-    cursor: pointer;
-    font-size: 12px;
-
-}
-.signup_button:hover{
-    background-color: #333;
-    color:#fff;
-}
-
-
-
+      }
+      .icon_container{
+         position:relative;
+         left:24rem;
+         top: -1.5rem;
+      }
+      .lock_container{
+        position: relative;
+        left: 24rem;
+      }
+      
+    }  
