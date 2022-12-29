@@ -63,10 +63,13 @@ function NavBar() {
               <GiPadlockOpen className={styles["navBar--icon"]} />
               Login
             </li>
-            <li>
-              <BiUserCircle className={styles["navBar--icon"]} />
-              Register
-            </li>
+            <Link href="/register/register_user">
+              <li>
+                <BiUserCircle className={styles["navBar--icon"]} />
+                Join
+              </li>
+            </Link>
+
             <Link href="/ProjectPost">
               <button className={styles["navBar--menu_btnPost"]}>
                 Post a project
