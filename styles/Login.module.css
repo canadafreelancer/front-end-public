@@ -1,206 +1,81 @@
-.container{
-    width: 100%;
-    height: 100vh;
-    background-color: #fff;
+.login__container {
+  display: grid;
+  place-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
-.nav_container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 7%;
-    margin-right: 7%;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
-    position: relative;
-   
+.login__body {
+  background-color: #fff;
+  height: 60vh;
+  width: 50vw;
+  border-radius: 20px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
-.fieldset_container{
-    height: 75vh;
-    width:480px;
-    position: relative;
-    left: 559px;
-    top: 0.3rem;
-    border-radius: 15px;
-    background-color:transparent;
-    border:none;
+.login__heading {
+  text-align: center;
+  margin-top: 3rem;
 }
-.login_container h1{
-    position: relative;
-    top:30px;
-    font-size: 40px;
-    font-weight:lighter;
-    color: #333; 
-    text-align: center;
-
+.login__heading > p {
+  padding-top: 1rem;
+  font-size: 1.1rem;
 }
-.login_container p{
-    position: relative;
-    top:5rem;
-    left: 6.4rem;
-    font-weight: 50;
-    
-
-}
-.form_container{
-    font-weight: none;
-    position:relative;
-    text-align: center;
-    top:58px;
-    
-}
-.email_input{
-    position: relative;
-    top: 4rem;
-    width: 370px;
-    height: 5.2vh;
-    border-radius: 4px;
-    text-align: left;
-    padding: 20px;
-   
-   
-}
-.email_input::placeholder{
-     position: relative;
-     
+.form__container {
+  display: grid;
+  place-items: center;
+  padding: 2rem;
 }
 
-.password_input{
-    position: relative;
-    top: 5rem;
-    width: 370px;
-    height: 5.2vh;
-    border-radius: 4px;
-    text-align: left;
-    padding: 20px;
-    
-   
+.login_container h1 {
+  position: relative;
+  top: 30px;
+  font-size: 40px;
+  font-weight: lighter;
+  color: #333;
+  text-align: center;
 }
-.link_container{
-    position: relative;
-    font-size: 14px;
-    top: 5rem;
-    color: black;
- 
+.login_container p {
+  position: relative;
+  top: 5rem;
+  left: 6.4rem;
+  font-weight: 50;
 }
-.link_container:hover{
-    color: blue;
-}
-.log-in_button{
-    position: relative;
-    top: 8rem;
-    width: 370px;
-    height: 5.2vh;
-    border-radius: 4px;
-    text-align: center;
-    padding: 10px;
-    background-color:#e83151;
-    border: none;
-    color: #fff;
-    font-weight: bolder;
-    font-size: 15px;
-    font-family: Outfit;
-}
-.log-in_button:hover{
-    background-color: black;
-    transition: 0.5s;
-    color: #fff;
-}
-.Logo_container{
-    position: relative;
-    left: 37rem;
-}
-.icon_container{
-    position: relative;
-    top:2rem;
-    left:10.5rem ;
-    
-}
-.lock_container{
-    position: relative;
-    top:3rem;
-    left: 10.5rem;
-
+.form__details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
-/* Media Queries */
-@media only screen and (max-width: 600px){
-         .container{
-            width: 400%;
-            height: 400vh;
-         }
-      .nav_container{
-          display: flex;
-       }
-       .Logo_container{
-          position:relative;
-          left:36rem;
-       }
-       .fieldset_container{
-        position: relative;
-        left: 20rem;
-        top:45rem;
-       }
-       .login_container h1{
-          font-size: 3cm;
-          position: relative;
-          font-weight: bolder;
-          left: -8rem;
-        
-       }
-       .login_container p{
-        font-size: 80px;
-        position: relative;
-        left: -9rem;
-       }
-       .email_input{
-        position:relative;
-        width:110%;
-        height:18vh;
-        right: 10rem;
-        border-radius: 8px;
-        border: 2px solid black;
-        padding: 20px;
-        font-size: 60px;
-       }
-       .email_input::placeholder{
-        position: relative;
-       
-      }
-      .password_input{
-        position:relative;
-        width:110%;
-        height:18vh;
-        right: 10rem;
-        border-radius: 8px;
-        border: 2px solid black;
-        padding: 20px;
-        font-size: 60px;
-        top:8rem;
-      }
-      .log-in_button{
-        width:110%;
-        height:18vh;
-        right: 10rem;
-        top:30rem;
-        font-size: 60px;
-        
-      }
-      .link_container{
-        position: relative;
-        font-size: 60px;
-        right:8rem;
-        top:20rem;
-        color: black;
-
-      }
-      .icon_container{
-         position:relative;
-         left:24rem;
-         top: -1.5rem;
-      }
-      .lock_container{
-        position: relative;
-        left: 24rem;
-      }
-      
-    }  
+.form__input {
+  width: 70%;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: antiquewhite;
+}
+.form__btn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #c9184a;
+  width: 50%;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+/* Responsiveness */
+@media screen and (max-width: 600px) {
+  .login__body {
+    height: 70vh;
+    width: 80vw;
+  }
+  .form__input {
+    width: 90%;
+  }
+}

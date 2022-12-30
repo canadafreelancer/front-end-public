@@ -68,7 +68,7 @@ function Hire() {
                   </p>
                 </li>
               </ul>
-              <Link href="/post">
+              <Link href="info/post-project">
                 <button className={styles["Hire__btn"]}>Post a project</button>
               </Link>
             </article>

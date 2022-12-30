@@ -82,7 +82,7 @@ const Register = () => {
           </div>
         </section>
         <div className={styles["register__loginContainer"]}>
-          Already have an account?<Link href="/LoginPage">Log in</Link>
+          Already have an account?<Link href="register/login">Log in</Link>
         </div>
       </div>
     </div>

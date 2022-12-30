@@ -92,7 +92,7 @@ function Form() {
           <div className={styles["form__login--container"]}>
             <h3>Already have an account ? </h3>
             <div className={styles["form__login--btn"]}>
-              <Link href="/">
+              <Link href="/register/login">
                 <h4>Login</h4>
               </Link>
             </div>

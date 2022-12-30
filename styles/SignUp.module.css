@@ -163,9 +163,45 @@
   .register__section--boxes {
     flex-direction: column;
   }
+  .form__body {
+    width: 80%;
+  }
+  .form__social-signup {
+    flex-direction: column;
+  }
+  .form__body--caption,
+  .form__details {
+    padding: 2rem;
+  }
+  .form__social-btn > button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 90%;
+  }
+  .form__login--container {
+    flex-direction: column;
+  }
 }
 @media only screen and (min-width: 601px) and (max-width: 1200px) {
   .register__section--boxes {
+    flex-direction: column;
+  }
+  .form__body {
+    width: 80%;
+  }
+  .form__social-signup {
+    flex-direction: column;
+  }
+  .form__body--caption,
+  .form__details {
+    padding: 2rem;
+  }
+  .form__social-btn > button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 90%;
+  }
+  .form__login--container {
     flex-direction: column;
   }
 }

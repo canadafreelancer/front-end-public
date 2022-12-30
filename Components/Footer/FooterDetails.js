@@ -12,7 +12,6 @@ import Logo from "../../public/images/canadaFreelanceLogo.png";
 function FooterDetails() {
   return (
     <div className={styles["footer_container"]}>
-      {/* <h3>CanadaFreelancer</h3> */}
       <Image
         src={Logo}
         alt="canadaFreelancer"
