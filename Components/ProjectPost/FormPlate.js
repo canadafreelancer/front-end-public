@@ -1,67 +1,93 @@
-import React from 'react'
-import styles from '../../styles/FormPlate.module.css'
-
+import React from "react";
+import styles from "../../styles/FormPlate.module.css";
 
 const FormPlate = () => {
   return (
     <div className={styles["parent-container"]}>
-      <div className={styles["container"]}>
-        <div className={styles["container-control"]}>
+      <form className={styles["form__container"]}>
+        <div className={styles["container__project"]}>
           <h3>Project Name</h3>
-          <input type="text" className={styles["form-con"]} placeholder="Enter Project title" required />
-          </div>
+          <input
+            type="text"
+            className={styles["form__input"]}
+            placeholder="Enter Project title"
+            required
+          />
+        </div>
 
-          <div className={styles["category-type"]}>
+        <div className={styles["category-container"]}>
           <h3>Category Type</h3>
-          <select className={styles["select-category"]} required>
-            <option className={styles["option"]}>Select</option>
-            <option className={styles["option"]}>Tech & Programming</option>
-            <option className={styles["option"]}>Design & Creative</option>
-            <option className={styles["option"]}>Sales & Marketing</option>
-            <option className={styles["option"]}>Writing & Translation</option>
-            <option className={styles["option"]}>Video & Animation</option>
-            <option className={styles["option"]}>Lifestyle</option>
-            <option className={styles["option"]}>Music & Audio</option>
-            <option className={styles["option"]}>Business</option>
+          <select required className={styles["form__input"]}>
+            <option>Select</option>
+            <option>Tech & Programming</option>
+            <option>Design & Creative</option>
+            <option>Sales & Marketing</option>
+            <option>Writing & Translation</option>
+            <option>Video & Animation</option>
+            <option>Lifestyle</option>
+            <option>Music & Audio</option>
+            <option>Business</option>
           </select>
-          </div>
+        </div>
 
-          <div className={styles["form-group"]}>
-            <h3>Desired areas of expertise</h3>
-            <input type="text" className={styles["form-group-1"]} placeholder="UI/UX, Web Design, Andriod Developer" required/>
-            <p>Enter skills for needed for project</p>
-          </div>
+        <div className={styles["expertise__container"]}>
+          <h3>Desired areas of expertise</h3>
+          <input
+            type="text"
+            placeholder="UI/UX, Web Design, Andriod Developer"
+            required
+            className={styles["form__input"]}
+          />
+        </div>
 
-          <div className={styles["pricing-type"]}>
+        <div className={styles["pricing__container"]}>
           <h3>Pricing Type</h3>
-          <select className={styles["select-pricing"]} required>
-            <option className={styles["option"]}>Select</option>
-            <option className={styles["option"]}>Fixed Budget Price</option>
-            <option className={styles["option"]}>Hourly Pricing</option>
-            <option className={styles["option"]}>Biding Pricing</option>
+          <select className={styles["form__input"]} required>
+            <option>Select</option>
+            <option>Fixed Budget Price</option>
+            <option>Hourly Pricing</option>
+            <option>Biding Pricing</option>
           </select>
+        </div>
+
+        <div>
+          <h3>Add Documents</h3>
+          <div>
+            <input
+              type="file"
+              required
+              size={2}
+              className={styles["form__input"]}
+            />
           </div>
+          <p>Size of the Document should be below 2MB</p>
+        </div>
 
-          <div className={styles["form-doc"]}>
-            <h3>Add Documents</h3>
-            <div className={styles["form-doc-1"]}>
-            <a>Upload</a>
-            <input type="file" required size={2}/>
-            </div> 
-            <p>Size of the Document should be Below 2MB</p>
-          </div>
-
-          <div className={styles["add-link"]}>
-            <h3>Add Links</h3>
-            <input type="textarea"  className={styles["textarea"]} required/>
-            <p>Add Reference links if any</p>
-          </div>
-
-          <button className={styles["submit-btn"]}>Submit</button>
-      </div>
-
+        <div className={styles["addLinks__container"]}>
+          <h3>Add Links</h3>
+          <input
+            type="text"
+            required
+            className={styles["form__input"]}
+            placeholder="Add reference if any"
+          />
+        </div>
+        <div>
+          <h3>Write description of project</h3>
+          <textarea
+            id="desc"
+            name="desc"
+            className={styles["form__input"]}
+            placeholder="Add project details"></textarea>
+        </div>
+        <div>
+          <button type="submit" className={styles["form__btn"]}>
+            Submit
+          </button>
+        </div>
+      </form>
     </div>
-  )
-}
+  );
+};
 
-export default FormPlate
+export default FormPlate;

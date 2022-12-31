@@ -119,8 +119,7 @@
   }
   .jobListing_container__sidebar {
     width: 100%;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
   .jobRequest_duration {
     display: flex;
@@ -131,6 +130,12 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+  .jobRequest_owner {
+    gap: 1rem;
+  }
+  .sidebar {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 601px) and (max-width: 1200px) {
   .jobListing_container {
@@ -138,7 +143,7 @@
     padding: 2rem;
   }
   .jobListing_container__sidebar {
-    width: 100%;
+    width: 80%;
     margin-left: 2rem;
     margin-bottom: 2rem;
   }

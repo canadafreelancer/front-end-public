@@ -11,6 +11,8 @@
   background-color: #fff;
   flex-basis: 25%;
   border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 5px solid #c9184a;
 }
 .suggestedFreelancer__profileImg {
   position: relative;

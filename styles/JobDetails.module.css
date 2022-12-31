@@ -26,6 +26,8 @@
   margin-left: 2rem;
   margin-bottom: 2rem;
   padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 .jobDetails__project {
   margin-top: 1.5rem;
@@ -33,10 +35,12 @@
   padding: 1.5rem 2rem 1rem;
   background-color: #fff;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 .jobDetails__project > p {
   padding-top: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 .jobDetails__highlights {
@@ -86,10 +90,10 @@
 }
 .aside_caption > h2 {
   padding-top: 2rem;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 .aside_caption > p:nth-of-type(1) {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .aside_btn {
@@ -168,15 +172,31 @@
   .jobDetails__container {
     padding: 2rem;
   }
+  .jobDetails__main {
+    flex-direction: column;
+  }
   .jobDetails__content {
     flex-direction: column;
   }
+  .jobDetails_subCaption {
+    flex-direction: column;
+    gap: 1rem;
+  }
   .jobDetails__highlights {
+    flex-direction: column;
     gap: 1rem;
   }
   .jobDetails_aside {
     width: 100%;
     margin-left: 0rem;
+  }
+  .jobDetails__skills > ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .aside_btn > button:nth-of-type(1),
+  .aside_btn > button:nth-of-type(2) {
+    padding: 0.5rem;
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 1200px) {
@@ -186,11 +206,26 @@
   .jobDetails__content {
     flex-direction: column;
   }
+  .jobDetails_subCaption {
+    flex-direction: column;
+    gap: 1rem;
+  }
   .jobDetails__highlights {
     gap: 1rem;
+  }
+  .jobDetails__main {
+    flex-direction: column;
   }
   .jobDetails_aside {
     width: 100%;
     margin-left: 0rem;
+  }
+  .jobDetails__skills > ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .aside_btn > button:nth-of-type(1),
+  .aside_btn > button:nth-of-type(2) {
+    padding: 0.5rem;
   }
 }

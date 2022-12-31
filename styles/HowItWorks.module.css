@@ -1,0 +1,25 @@
+.tabs__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tab__item {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+.tab__item--active {
+  /* Border */
+  /* Hide the bottom border */
+  background-color: blanchedalmond;
+  border-bottom-color: transparent;
+
+  /* Border radius */
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.tab__item--inactive {
+  /* Has only the bottom border */
+  background-color: aquamarine;
+}
