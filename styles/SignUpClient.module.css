@@ -29,9 +29,7 @@
 .image_field_apple{
     position: absolute;
    left: 13rem;
-   top:3.9cm;
-  
-    
+   top:3.9cm;   
 }
 .menu_list--option{
     display: flex;
