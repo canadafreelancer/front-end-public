@@ -7,7 +7,7 @@ const listings = [
       gender: "male",
       englishLevel: "fluent",
       type: "Individual",
-      coverImg: `https://source.unsplash.com/n4KewLKFOZw/200x300`,
+      coverImg: `https://source.unsplash.com/pl9DrjAMV6I/200x300`,
       profilePic: `https://source.unsplash.com/1w9I6H4aftw/200x300`,
       profile: `Proident commodo Lorem commodo laborum cillum adipisicing esse sit nostrud ea.
       In velit id ullamco quis in proident incididunt ullamco commodo est. 

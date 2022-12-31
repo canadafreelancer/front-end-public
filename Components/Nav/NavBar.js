@@ -40,17 +40,16 @@ function NavBar() {
           isMenuClicked ? styles["nav_menu-mobile"] : styles["navBar--menus"]
         } `}>
         <ul className={styles["navBar--menus_items"]}>
-          
           <li>
-          <Link href="/HowItWorksPage">
-          <a className={styles["navBar--menu_links"]}> How it works</a> 
-          </Link>
+            <Link href="/info/howitworks">
+              <a className={styles["navBar--menu_links"]}> How it works</a>
+            </Link>
           </li>
-            
+
           <li>
             <Link href="/freelancers">
-          <a className={styles["navBar--menu_links"]}>Find Talents</a>
-          </Link>
+              <a className={styles["navBar--menu_links"]}>Find Talents</a>
+            </Link>
           </li>
           <li>
             <Link href="/jobs">
@@ -64,13 +63,18 @@ function NavBar() {
               <GiPadlockOpen className={styles["navBar--icon"]} />
               Login
             </li>
-            <li>
-              <BiUserCircle className={styles["navBar--icon"]} />
-              Register
-            </li>
-            <button className={styles["navBar--menu_btnPost"]}>
-              Post a project
-            </button>
+            <Link href="/register/register_user">
+              <li>
+                <BiUserCircle className={styles["navBar--icon"]} />
+                Join
+              </li>
+            </Link>
+
+            <Link href="post-project">
+              <button className={styles["navBar--menu_btnPost"]}>
+                Post a project
+              </button>
+            </Link>
           </ul>
         </div>
       </nav>

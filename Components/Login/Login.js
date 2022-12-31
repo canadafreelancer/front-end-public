@@ -1,41 +1,60 @@
 import styles from "../../styles/Login.module.css";
 import Link from "next/link";
-import freelanceLogo from "../../public/images/canadaFreelanceLogo.png";
 import Email from "../../public/images/email.png";
-import Lock from "../../public/images/lock.png"
+import Lock from "../../public/images/lock.png";
 import Image from "next/image";
-
-
-
-
 
 const Login = () => {
   return (
-    <div className={styles["container"]} >
-    <nav className={styles["nav_container"]}>
-    <div className={styles["Logo_container"]}>
-    <Image src={freelanceLogo} width={200} height={60}/>
-    </div>          
-    </nav>  
-    <fieldset className={styles["fieldset_container"]}>
-      <div className={styles["login_container"]}>
-            <h1>Log in to CanadaFreelancers</h1>
-            <p>Enter your email address and password.</p>
-          <form className={styles["form_container"]}>
-            <input type="email" placeholder="Username or Email" name="email" className={styles["email_input"]} required></input>
-            <div className={styles["icon_container"]}><Image src={Email}  width={20} height={20} className={styles["email_icon"]} /></div>
-            <input type="password" placeholder="Password" name="password" className={styles["password_input"]} required />
-            <div className={styles["lock_container"]}><Image src={Lock}  width={20} height={20}  className={styles["lock_icon"]}  /></div>
-             <Link href="">
-              <a className={styles["link_container"]}>Forgot your password?</a>
-             </Link>
-             <button className={styles["log-in_button"]}>Log in</button>
-          </form> 
-       </div>       
-    </fieldset>          
+    <div className={styles["login__container"]}>
+      <div className={styles["login__body"]}>
+        <div className={styles["login__heading"]}>
+          <h2>Log in to Canada Freelancers</h2>
+          <p>Enter your email address and password.</p>
+        </div>
+        <form className={styles["form__container"]}>
+          <div className={styles["form__details"]}>
+            <Image
+              src={Email}
+              width={30}
+              height={30}
+              className={styles["form__icon"]}
+            />
+            <input
+              type="email"
+              placeholder="Enter email"
+              name="email"
+              required
+              className={styles["form__input"]}
+            />
+          </div>
+
+          <div className={styles["form__details"]}>
+            <Image
+              src={Lock}
+              width={30}
+              height={30}
+              className={styles["form__icon"]}
+            />
+            <input
+              type="password"
+              placeholder="Password"
+              name="password"
+              required
+              className={styles["form__input"]}
+            />
+          </div>
+          <Link href="#">
+            <button className={styles["form__btn"]}>Log in</button>
+          </Link>
+
+          <Link href="/">
+            <a>Forgot your password?</a>
+          </Link>
+        </form>
       </div>
+    </div>
   );
 };
 
 export default Login;
-

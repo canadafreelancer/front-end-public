@@ -6,6 +6,9 @@
   padding: 1rem 5rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.navBar__brand {
+  cursor: pointer;
+}
 .navBar--menus {
   display: flex;
   gap: 4rem;
