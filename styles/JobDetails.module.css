@@ -167,6 +167,32 @@
 .aside_content {
   font-weight: 600;
 }
+/* Modal content */
+.modalContent__container {
+  padding-top: 3rem;
+  display: grid;
+  place-items: center;
+}
+.modalContent__btnLogin {
+  margin-top: 2rem;
+  background-color: #c9184a;
+  border: none;
+  outline: none;
+  padding: 1rem 0.5rem;
+  border-radius: 30px;
+  width: 50%;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.modalContent__btnLogin:hover,
+.modalContent__btnLogin:active {
+  cursor: pointer;
+  background-color: #ffb4a2;
+  color: #c9184a;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
 /* Responsiveness */
 @media only screen and (max-width: 600px) {
   .jobDetails__container {

@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsCalendar2DateFill, BsFolder } from "react-icons/bs";
 import styles from "../../styles/JobDetails.module.css";
 import HeaderBanner from "../HeaderBanner/HeaderBanner";
 import { HiLocationMarker } from "react-icons/hi";
 import { CgBriefcase, CgCalendarDates } from "react-icons/cg";
+import Modal from "../Modal/Modal";
+import { useRouter } from "next/router";
 
 function JobDetails({ jobData }) {
+  const [showModal, setShowModal] = useState(false);
+
+  //redirect user to login
+  let router = useRouter();
+
+  const redirect = () => {
+    router.push("/register/login");
+  };
+
   const {
     category,
     datePublished,
@@ -61,8 +72,12 @@ function JobDetails({ jobData }) {
               <p>Project Type: Fixed</p>
             </section>
             <div className={styles["aside_btn"]}>
-              <button>Submit a proposal</button>
-              <button>Wishlist Project</button>
+              <button onClick={() => setShowModal(true)}>
+                Submit a proposal
+              </button>
+              <button onClick={() => setShowModal(true)}>
+                Wishlist Project
+              </button>
             </div>
             <section className={styles["aside_employerDetails"]}>
               <h2>About Employer</h2>
@@ -127,6 +142,17 @@ function JobDetails({ jobData }) {
           </aside>
         </div>
       </div>
+      {/* Show modal */}
+      <Modal show={showModal} onClose={() => setShowModal(false)}>
+        <div className={styles["modalContent__container"]}>
+          <h3>You must be logged in first</h3>
+          <button
+            className={styles["modalContent__btnLogin"]}
+            onClick={redirect}>
+            Login
+          </button>
+        </div>
+      </Modal>
     </>
   );
 }
