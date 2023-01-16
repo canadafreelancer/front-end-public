@@ -4,9 +4,10 @@
   height: 30vh;
 }
 .headerBanner > h2 {
-  padding: 2rem;
+  padding: 4rem;
   display: grid;
   place-items: center;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  text-transform: capitalize;
 }

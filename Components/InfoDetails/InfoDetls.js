@@ -18,7 +18,7 @@ function InfoDetls() {
 
   return (
     <>
-      <HeaderBanner />
+      <HeaderBanner props="How it works" />
       <div>
         <ul className={styles["nav__container"]}>
           <li

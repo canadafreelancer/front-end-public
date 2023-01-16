@@ -70,7 +70,7 @@ function NavBar() {
               </li>
             </Link>
 
-            <Link href="post-project">
+            <Link href="/post-project">
               <button className={styles["navBar--menu_btnPost"]}>
                 Post a project
               </button>
