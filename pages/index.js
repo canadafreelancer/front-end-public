@@ -4,8 +4,8 @@ import Freelancers from "../Components/Freelancers/Freelancers";
 import Services from "../Components/Services/Services";
 import TrendingServices from "../Components/TrendingServices/TrendingServices";
 import About from "../Components/About/About";
-import AppDownload from "../components/AppDownload/AppDownload";
-import Hero from "../components/Herosec/Hero";
+import AppDownload from "../Components/AppDownload/AppDownload";
+import Hero from "../Components/Herosec/Hero";
 import Leads from "../Components/Leads/Leads";
 import Layout from "../Components/LayoutWrapper/Layout";
 
