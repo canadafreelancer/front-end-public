@@ -34,7 +34,7 @@ function InfoDetls() {
         </ul>
         <div className={styles.outlet}>
           {/* content goes here */}
-          {activeTab === "tab1" ? <Hire /> : <Earn />}
+          {activeTab === "tab1" ? <Hire /> : <Earn />} 
         </div>
       </div>
     </>

@@ -10,6 +10,8 @@
   outline: none;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 20px;
+  position: relative;
+
 }
 .register__container--section > h1 {
   padding-top: 2rem;
@@ -36,8 +38,8 @@
   justify-content: space-between;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  font-size: 2rem;
-  background-color: #f7a2a6;
+  font-size: 5rem;
+  background-color: #231d1d;
 }
 .register__input--container {
   display: flex;
@@ -45,6 +47,7 @@
   margin-top: 1rem;
   margin-bottom: 2rem;
   font-size: 2rem;
+  accent-color: #c9184a;
 }
 .register__icon {
   color: #c9184a;
@@ -65,8 +68,8 @@
 }
 .register__btnContainer > button:hover,
 .register__btnContainer > button:active {
-  background-color: #f7a2a6;
-  color: #333;
+  background-color: #333;
+  color: #fff;
   cursor: pointer;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }

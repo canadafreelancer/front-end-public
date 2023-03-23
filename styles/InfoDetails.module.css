@@ -51,8 +51,11 @@
   margin: 1rem;
   background-color: #fff;
   padding: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+  box-shadow: rgba(0, 0, 0, 0.1) 30px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.Hire__snippets--item:hover{
+  background-color: #ffb8b8;
 }
 .Hire__snippets--item > h3 {
   font-size: 1.5rem;

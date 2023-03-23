@@ -5,7 +5,7 @@
   margin-bottom: 4rem;
 }
 .login__body {
-  background-color: #fff;
+  background-color: floralwhite;
   height: 60vh;
   width: 50vw;
   border-radius: 20px;
@@ -68,6 +68,10 @@
   outline: none;
   border: none;
   border-radius: 10px;
+}
+.form__btn:hover{
+  background-color: #333;
+  transition: 1s;
 }
 /* Responsiveness */
 @media screen and (max-width: 600px) {
