@@ -2,8 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-   // other exports
-   target: 'serverless', // add this line
+  output: 'export',
   images: {
     domains: ["source.unsplash.com"],
   },
