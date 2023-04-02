@@ -3,3 +3,5 @@ workers-site
 nextapp/package-lock.json
 .next/
 .next/cache/
+# Local Netlify folder
+.netlify

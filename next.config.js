@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  output: 'export',
+  output: "standalone",
   images: {
     domains: ["source.unsplash.com"],
   },

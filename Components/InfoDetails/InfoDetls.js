@@ -23,11 +23,13 @@ function InfoDetls() {
         <ul className={styles["nav__container"]}>
           <li
             className={activeTab === "tab1" ? styles.active : ""}
+            id={styles.tab1}
             onClick={handleTab1}>
             <h3>How to hire a freelancer</h3>
           </li>
           <li
             className={activeTab === "tab2" ? styles.active : ""}
+            id={styles.tab2}
             onClick={handleTab2}>
             <h3>How to earn money freelancing</h3>
           </li>
